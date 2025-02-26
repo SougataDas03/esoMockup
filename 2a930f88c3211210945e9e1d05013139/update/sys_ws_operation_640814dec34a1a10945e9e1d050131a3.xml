@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <http_method>POST</http_method>
+        <name>request</name>
+        <operation_script><![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+    // Get parameters from the request
+
+	gs.info('Request Path Params: ' + JSON.stringify(request.pathParams));
+    gs.info('Request Query Params: ' + JSON.stringify(request.queryParams));
+
+     var action = request.pathParams.action; // Fetch 'action'
+    var sysId = request.pathParams.sys_id;
+
+    if (!sysId || !action) {
+        response.setStatus(400); // Bad Request
+        response.setBody({ error: 'Missing required parameters: sys_id and action' });
+        return;
+    }
+
+    // Query the sysapproval_approver table for the matching document_id
+    var gr = new GlideRecord('sysapproval_approver');
+    gr.query();
+
+    var isActionProcessed = false;
+
+    while (gr.next()) {
+        var documentSysId = gr.document_id.toString(); // Get the sys_id from document_id field
+
+        // Compare document_id with incoming sys_id
+        if (documentSysId === sysId) {
+            gs.info('Matching Record Found: Approval Record Sys ID: ' + gr.sys_id + ' for Document ID: ' + gr.document_id);
+
+            // Process the action
+            if (action === 'approve') {
+                gr.state = 'approved'; // Update the state to "approved"
+                gs.info('Approval action processed for document: ' + gr.document_id);
+            } else if (action === 'reject') {
+                gr.state = 'rejected'; // Update the state to "rejected"
+                gs.info('Rejection action processed for document: ' + gr.document_id);
+            } else {
+                gs.error('Invalid action in email subject: ' + action);
+            }
+
+            // Save the updated approval record
+            gr.update();
+            isActionProcessed = true;
+            break; // Exit the loop after processing the matching record
+        }
+    }
+
+    if (isActionProcessed) {
+        response.setStatus(200);
+        response.setBody({ message: 'Action processed successfully', sys_id: gr.sys_id, action: action });
+    } else {
+        // No matching record found
+        gs.error('No matching record found for sys_id: ' + sysId);
+        response.setStatus(404); // Not Found
+        response.setBody({ error: 'No record found for sys_id: ' + sysId });
+    }
+})(request, response);
+]]></operation_script>
+        <operation_uri>/api/x_1040502_eso_mo_0/approvalactionsapi/action/{action}/record/{sys_id}</operation_uri>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/action/{action}/record/{sys_id}</relative_path>
+        <request_example/>
+        <requires_acl_authorization>true</requires_acl_authorization>
+        <requires_authentication>true</requires_authentication>
+        <requires_snc_internal_role>true</requires_snc_internal_role>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-25 12:17:14</sys_created_on>
+        <sys_id>640814dec34a1a10945e9e1d050131a3</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>request</sys_name>
+        <sys_package display_value="eSO Mockup" source="x_1040502_eso_mo_0">2a930f88c3211210945e9e1d05013139</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="eSO Mockup">2a930f88c3211210945e9e1d05013139</sys_scope>
+        <sys_update_name>sys_ws_operation_640814dec34a1a10945e9e1d050131a3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-25 13:09:38</sys_updated_on>
+        <web_service_definition display_value="ApprovalActionsAPI">96b79c9ac34a1a10945e9e1d050131a5</web_service_definition>
+        <web_service_version/>
+    </sys_ws_operation>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>640814dec34a1a10945e9e1d050131a3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-25 12:17:13</sys_created_on>
+        <sys_id>3b5854dec34a1a10945e9e1d050131a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-25 12:17:13</sys_updated_on>
+        <table>sys_ws_operation</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

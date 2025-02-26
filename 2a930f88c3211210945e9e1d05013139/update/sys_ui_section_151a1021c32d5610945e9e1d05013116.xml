@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="151a1021c32d5610945e9e1d05013116" sys_domain="global" table="x_1040502_eso_mo_0_account_history" version="3" view="workspace-eso-mockup-1">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>month</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-29 07:57:51</sys_created_on>
+            <sys_id>d51a1021c32d5610945e9e1d05013117</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1040502_eso_mo_0_account_history" sys_domain="global" view="650ad8ed63e95610942e5bdd4d1252ef">151a1021c32d5610945e9e1d05013116</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-29 07:57:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>balaance_b_f_1st_to_15th</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-29 07:57:51</sys_created_on>
+            <sys_id>d51a1021c32d5610945e9e1d0501311a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1040502_eso_mo_0_account_history" sys_domain="global" view="650ad8ed63e95610942e5bdd4d1252ef">151a1021c32d5610945e9e1d05013116</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-29 07:57:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>balance_b_f_16th_to_31st</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-29 07:57:51</sys_created_on>
+            <sys_id>dd1a1021c32d5610945e9e1d05013117</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1040502_eso_mo_0_account_history" sys_domain="global" view="650ad8ed63e95610942e5bdd4d1252ef">151a1021c32d5610945e9e1d05013116</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-29 07:57:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>collection_1st_to_15th</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-29 07:57:51</sys_created_on>
+            <sys_id>dd1a1021c32d5610945e9e1d0501311a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1040502_eso_mo_0_account_history" sys_domain="global" view="650ad8ed63e95610942e5bdd4d1252ef">151a1021c32d5610945e9e1d05013116</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-29 07:57:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>collection_16th_to_31st</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-29 07:57:51</sys_created_on>
+            <sys_id>d51a1021c32d5610945e9e1d05013118</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1040502_eso_mo_0_account_history" sys_domain="global" view="650ad8ed63e95610942e5bdd4d1252ef">151a1021c32d5610945e9e1d05013116</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-29 07:57:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>collection_cn_pi</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-29 07:57:51</sys_created_on>
+            <sys_id>5d1a5021c32d5610945e9e1d0501315e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1040502_eso_mo_0_account_history" sys_domain="global" view="650ad8ed63e95610942e5bdd4d1252ef">151a1021c32d5610945e9e1d05013116</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-29 07:57:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>uncollected</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-29 07:57:51</sys_created_on>
+            <sys_id>dd1a1021c32d5610945e9e1d05013118</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1040502_eso_mo_0_account_history" sys_domain="global" view="650ad8ed63e95610942e5bdd4d1252ef">151a1021c32d5610945e9e1d05013116</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-29 07:57:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>curr_sales</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-29 07:57:51</sys_created_on>
+            <sys_id>551a5021c32d5610945e9e1d0501315f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1040502_eso_mo_0_account_history" sys_domain="global" view="650ad8ed63e95610942e5bdd4d1252ef">151a1021c32d5610945e9e1d05013116</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-29 07:57:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sales_order_hold</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-29 07:57:51</sys_created_on>
+            <sys_id>d51a1021c32d5610945e9e1d05013119</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1040502_eso_mo_0_account_history" sys_domain="global" view="650ad8ed63e95610942e5bdd4d1252ef">151a1021c32d5610945e9e1d05013116</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-29 07:57:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>total_o_s_c_f</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-29 07:57:51</sys_created_on>
+            <sys_id>5d1a5021c32d5610945e9e1d0501315f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1040502_eso_mo_0_account_history" sys_domain="global" view="650ad8ed63e95610942e5bdd4d1252ef">151a1021c32d5610945e9e1d05013116</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-29 07:57:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>exceed_credit_limit</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-29 07:57:51</sys_created_on>
+            <sys_id>dd1a1021c32d5610945e9e1d05013119</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1040502_eso_mo_0_account_history" sys_domain="global" view="650ad8ed63e95610942e5bdd4d1252ef">151a1021c32d5610945e9e1d05013116</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-29 07:57:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_1040502_eso_mo_0_account_history</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-29 07:57:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>151a1021c32d5610945e9e1d05013116</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1040502_eso_mo_0_account_history</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="eSO Mockup" source="x_1040502_eso_mo_0">2a930f88c3211210945e9e1d05013139</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="eSO Mockup">2a930f88c3211210945e9e1d05013139</sys_scope>
+            <sys_update_name>sys_ui_section_151a1021c32d5610945e9e1d05013116</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-29 07:57:51</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Workspace eSO Mockup 1" name="workspace-eso-mockup-1">650ad8ed63e95610942e5bdd4d1252ef</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

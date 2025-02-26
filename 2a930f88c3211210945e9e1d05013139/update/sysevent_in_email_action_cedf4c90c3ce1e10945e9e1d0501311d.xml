@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_in_email_action">
+    <sysevent_in_email_action action="INSERT_OR_UPDATE">
+        <action>record_action</action>
+        <active>true</active>
+        <assignment_operator/>
+        <condition_script/>
+        <description/>
+        <event_name>email.read</event_name>
+        <filter_condition/>
+        <from/>
+        <name>Approval Email Action</name>
+        <order>100</order>
+        <reply_email/>
+        <required_roles/>
+        <script><![CDATA[var subject = email.subject; // Fetch the email subject
+var subjectParts = subject.split(':'); // Split by colon (:)
+if (subjectParts.length === 3) {
+    var action = subjectParts[0].toLowerCase(); 
+    var recordType = subjectParts[1]; 
+    var incomingSysId = subjectParts[2]; 
+
+    // Log the extracted data
+    gs.info('Action: ' + action + ', Record Type: ' + recordType + ', Incoming Sys ID: ' + incomingSysId);
+
+    // Ensure the target table is sysapproval_approver
+    if (recordType !== 'sysapproval_approver') {
+        gs.error('Invalid table: ' + recordType + '. This script only processes sysapproval_approver records.');
+    } else {
+        // Fetch all approval records
+        var gr = new GlideRecord('sysapproval_approver');
+        gr.query();
+
+        var isActionProcessed = false;
+
+        while (gr.next()) {
+            var documentSysId = gr.document_id.toString(); // Get the sys_id from document_id field
+
+            // Compare document_id with incoming sys_id
+            if (documentSysId === incomingSysId) {
+                gs.info('Matching Record Found: Approval Record Sys ID: ' + gr.sys_id + ' for Document ID: ' + gr.document_id);
+
+                // Process the action
+                if (action === 'approve') {
+                    gr.state = 'approved'; // Update the state to "approved"
+                    gs.info('Approval action processed for document: ' + gr.document_id);
+                } else if (action === 'reject') {
+                    gr.state = 'rejected'; // Update the state to "rejected"
+                    gs.info('Rejection action processed for document: ' + gr.document_id);
+                } else {
+                    gs.error('Invalid action in email subject: ' + action);
+                }
+
+                // Save the updated approval record
+                gr.update();
+                isActionProcessed = true;
+                break; // Exit the loop after processing the matching record
+            }
+        }
+
+        if (!isActionProcessed) {
+            gs.error('No matching approval record found where document_id matches Incoming Sys ID: ' + incomingSysId);
+        }
+    }
+} else {
+    gs.error('Invalid email subject format. Expected format: <action>:sysapproval_approver:<sys_id>');
+}
+]]></script>
+        <stop_processing>false</stop_processing>
+        <sys_class_name>sysevent_in_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-19 06:39:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cedf4c90c3ce1e10945e9e1d0501311d</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>Approval Email Action</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="eSO Mockup" source="x_1040502_eso_mo_0">2a930f88c3211210945e9e1d05013139</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="eSO Mockup">2a930f88c3211210945e9e1d05013139</sys_scope>
+        <sys_update_name>sysevent_in_email_action_cedf4c90c3ce1e10945e9e1d0501311d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-21 08:11:32</sys_updated_on>
+        <table>x_1040502_eso_mo_0_eso_approval</table>
+        <template/>
+        <type>new</type>
+    </sysevent_in_email_action>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>cedf4c90c3ce1e10945e9e1d0501311d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-19 06:39:12</sys_created_on>
+        <sys_id>e5719090c3ce1e10945e9e1d050131ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-19 06:39:12</sys_updated_on>
+        <table>sysevent_in_email_action</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

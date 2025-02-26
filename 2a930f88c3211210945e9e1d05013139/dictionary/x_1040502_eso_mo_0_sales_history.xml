@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="cfeb48a9c3a95610945e9e1d0501316b" extends="task" label="Sales History" max_length="40" name="x_1040502_eso_mo_0_sales_history" text_index="true" type="collection">
+        <element label="AR Sales Value" max_length="40" name="ar_sales_value" type="string"/>
+        <element label="N.A." max_length="40" name="n_0" type="string"/>
+        <element label="N.A." max_length="40" name="n_1" type="string"/>
+        <element label="N.A." max_length="40" name="n_2" type="string"/>
+        <element label="N.A." max_length="40" name="n_3" type="string"/>
+        <element label="N.A." max_length="40" name="n_4" type="string"/>
+        <element label="N.A." max_length="40" name="n_a" type="string"/>
+    </element>
+</database>

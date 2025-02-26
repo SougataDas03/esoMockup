@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_decision_table_decision_condition">
+    <sn_decision_table_decision_condition action="DELETE">
+        <decision_input display_value="department_code">d54bc027c3625e10945e9e1d05013155</decision_input>
+        <decision_table display_value="eSO Approval Decision Table delta">194b40e3c3625e10945e9e1d05013188</decision_table>
+        <default_operator>=</default_operator>
+        <description/>
+        <field/>
+        <field_label/>
+        <field_parent_table/>
+        <label>Department Code</label>
+        <order>100</order>
+        <parent display_value="">7a0aff1dc3295610945e9e1d05013100</parent>
+        <reference/>
+        <sys_class_name>sn_decision_table_decision_condition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-24 05:03:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>f54b4827c3625e10945e9e1d05013102</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="eSO Mockup" source="x_1040502_eso_mo_0">2a930f88c3211210945e9e1d05013139</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="eSO Mockup">2a930f88c3211210945e9e1d05013139</sys_scope>
+        <sys_update_name>sn_decision_table_decision_condition_f54b4827c3625e10945e9e1d05013102</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-24 05:03:49</sys_updated_on>
+        <type display_value="String">747127c1bf3320001875647fcf0739e0</type>
+    </sn_decision_table_decision_condition>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="eSO Mockup">2a930f88c3211210945e9e1d05013139</application>
+        <file_path/>
+        <instance_id>cca3323adb1a71542f082a5913961937</instance_id>
+        <instance_name>dev208145</instance_name>
+        <name>sn_decision_table_decision_condition_f54b4827c3625e10945e9e1d05013102</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_decision_table_decision_condition"><sn_decision_table_decision_condition action="INSERT_OR_UPDATE"><decision_input display_value="department_code">d54bc027c3625e10945e9e1d05013155</decision_input><decision_table display_value="eSO Approval Decision Table delta">194b40e3c3625e10945e9e1d05013188</decision_table><default_operator>=</default_operator><description/><field/><field_label/><field_parent_table/><label>Department Code</label><order>100</order><parent display_value="">7a0aff1dc3295610945e9e1d05013100</parent><reference/><sys_class_name>sn_decision_table_decision_condition</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-24 05:03:49</sys_created_on><sys_domain>global</sys_domain><sys_id>f54b4827c3625e10945e9e1d05013102</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="eSO Mockup" source="x_1040502_eso_mo_0">2a930f88c3211210945e9e1d05013139</sys_package><sys_policy/><sys_scope display_value="eSO Mockup">2a930f88c3211210945e9e1d05013139</sys_scope><sys_update_name>sn_decision_table_decision_condition_f54b4827c3625e10945e9e1d05013102</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-24 05:03:49</sys_updated_on><type display_value="String">747127c1bf3320001875647fcf0739e0</type></sn_decision_table_decision_condition></record_update>]]></payload>
+        <payload_hash>250781109</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>4bf440c5c3261210945e9e1d05013101</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-24 05:03:49</sys_created_on>
+        <sys_id>354b4827c3625e10945e9e1d05013105</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>193f70cc3a30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-24 05:03:49</sys_updated_on>
+        <type>Decision Condition</type>
+        <update_guid>394b482731625e10a1f1a15690db6904</update_guid>
+        <update_guid_history>394b482731625e10a1f1a15690db6904:250781109</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">5c8b4827c3625e10945e9e1d0501310c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-24 05:04:48</sys_created_on>
+        <sys_db_object display_value="" name="sn_decision_table_decision_condition">sn_decision_table_decision_condition</sys_db_object>
+        <sys_id>23c1e907c7c54176ba1af7d329be5fe4</sys_id>
+        <sys_metadata>f54b4827c3625e10945e9e1d05013102</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="eSO Mockup" source="x_1040502_eso_mo_0">2a930f88c3211210945e9e1d05013139</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="eSO Mockup">2a930f88c3211210945e9e1d05013139</sys_scope>
+        <sys_scope_delete display_value="">6320d1d0585d49868d4040a883e3a879</sys_scope_delete>
+        <sys_update_name>sn_decision_table_decision_condition_f54b4827c3625e10945e9e1d05013102</sys_update_name>
+        <sys_update_version display_value="sn_decision_table_decision_condition_f54b4827c3625e10945e9e1d05013102">354b4827c3625e10945e9e1d05013105</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-24 05:04:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

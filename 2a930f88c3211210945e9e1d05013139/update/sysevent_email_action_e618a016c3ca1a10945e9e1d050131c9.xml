@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_1040502_eso_mo_0_eso_approval</collection>
+        <condition/>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr>
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <enable_dynamic_translation>false</enable_dynamic_translation>
+        <event_name>activate.life.cycle.migration</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>triggered</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<div style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 800px; margin: auto;">
+<h3 style="color: #333;">eSO Document</h3>
+<p><strong>${number}</strong> from <strong>${applicant_name}</strong> has been routed to you for your action.</p>
+<div style="text-align: center; margin: 20px 0;"><!-- Approve Button --><form style="display: inline;" action="https://dev208145.service-now.com/api/x_1040502_eso_mo_0/approvalactionsapi/action/approve/record/${sys_id}" method="POST"><button style="padding: 10px 20px; background-color: #28a745; color: white; border: none; border-radius: 5px; cursor: pointer; margin: 0 10px;" type="submit">Approve</button></form><!-- RFI Button --><form style="display: inline;" action="https://dev208145.service-now.com/api/x_1040502_eso_mo_0/approvalactionsapi/action/RFI/record/${sys_id}" method="POST"><button style="padding: 10px 20px; background-color: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer; margin: 0 10px;" type="submit">RFI</button></form><!-- Reject Button --><form style="display: inline;" action="https://dev208145.service-now.com/api/x_1040502_eso_mo_0/approvalactionsapi/action/reject/record/${sys_id}" method="POST"><button style="padding: 10px 20px; background-color: #dc3545; color: white; border: none; border-radius: 5px; cursor: pointer; margin: 0 10px;" type="submit">Reject</button></form></div>
+<h4 style="color: #333;">Application Details</h4>
+<table style="width: 100%; border-collapse: collapse; margin-top: 10px; font-size: 14px;">
+<tbody>
+<tr>
+<td style="padding: 8px; border: 1px solid #ddd; background-color: #f8f9fa;"><strong>Blocking Reason</strong></td>
+<td style="padding: 8px; border: 1px solid #ddd;">${blocking_reason}</td>
+</tr>
+<tr>
+<td style="padding: 8px; border: 1px solid #ddd; background-color: #f8f9fa;"><strong>Customer Name</strong></td>
+<td style="padding: 8px; border: 1px solid #ddd;">${applicant_name}</td>
+</tr>
+<tr>
+<td style="padding: 8px; border: 1px solid #ddd; background-color: #f8f9fa;"><strong>Employee ID</strong></td>
+<td style="padding: 8px; border: 1px solid #ddd;">${applicant_name.employee_number}</td>
+</tr>
+<tr>
+<td style="padding: 8px; border: 1px solid #ddd; background-color: #f8f9fa;"><strong>Customer Code</strong></td>
+<td style="padding: 8px; border: 1px solid #ddd;">${customer_code}</td>
+</tr>
+<tr>
+<td style="padding: 8px; border: 1px solid #ddd; background-color: #f8f9fa;"><strong>Department</strong></td>
+<td style="padding: 8px; border: 1px solid #ddd;">${applicant_name.department}</td>
+</tr>
+<tr>
+<td style="padding: 8px; border: 1px solid #ddd; background-color: #f8f9fa;"><strong>Sales Organization</strong></td>
+<td style="padding: 8px; border: 1px solid #ddd;">${sales_organisation}</td>
+</tr>
+<tr>
+<td style="padding: 8px; border: 1px solid #ddd; background-color: #f8f9fa;"><strong>Customer PO Number</strong></td>
+<td style="padding: 8px; border: 1px solid #ddd;">${customer_po_number}</td>
+</tr>
+<tr>
+<td style="padding: 8px; border: 1px solid #ddd; background-color: #f8f9fa;"><strong>Sales Office</strong></td>
+<td style="padding: 8px; border: 1px solid #ddd;">${sales_office}</td>
+</tr>
+<tr>
+<td style="padding: 8px; border: 1px solid #ddd; background-color: #f8f9fa;"><strong>Division</strong></td>
+<td style="padding: 8px; border: 1px solid #ddd;">${division}</td>
+</tr>
+<tr>
+<td style="padding: 8px; border: 1px solid #ddd; background-color: #f8f9fa;"><strong>Sales Group</strong></td>
+<td style="padding: 8px; border: 1px solid #ddd;">${sales_group}</td>
+</tr>
+<tr>
+<td style="padding: 8px; border: 1px solid #ddd; background-color: #f8f9fa;"><strong>Sales Document Type</strong></td>
+<td style="padding: 8px; border: 1px solid #ddd;">${sales_document_type}</td>
+</tr>
+<tr>
+<td style="padding: 8px; border: 1px solid #ddd; background-color: #f8f9fa;"><strong>Sales Order Number</strong></td>
+<td style="padding: 8px; border: 1px solid #ddd;">${sales_order_number}</td>
+</tr>
+<tr>
+<td style="padding: 8px; border: 1px solid #ddd; background-color: #f8f9fa;"><strong>SAP ID</strong></td>
+<td style="padding: 8px; border: 1px solid #ddd;">${sap_id}</td>
+</tr>
+<tr>
+<td style="padding: 8px; border: 1px solid #ddd; background-color: #f8f9fa;"><strong>Total Sales Order Amount</strong></td>
+<td style="padding: 8px; border: 1px solid #ddd;">${otal_sales_order_amount}</td>
+</tr>
+<tr>
+<td style="padding: 8px; border: 1px solid #ddd; background-color: #f8f9fa;"><strong>Approved Credit Limit</strong></td>
+<td style="padding: 8px; border: 1px solid #ddd;">${approved_credit_limit}</td>
+</tr>
+<tr>
+<td style="padding: 8px; border: 1px solid #ddd; background-color: #f8f9fa;"><strong>Credit Limit Used</strong></td>
+<td style="padding: 8px; border: 1px solid #ddd;">${credit_limit_used}</td>
+</tr>
+<tr>
+<td style="padding: 8px; border: 1px solid #ddd; background-color: #f8f9fa;"><strong>Sales Order Currency</strong></td>
+<td style="padding: 8px; border: 1px solid #ddd;">${sales_order_currency}</td>
+</tr>
+<tr>
+<td style="padding: 8px; border: 1px solid #ddd; background-color: #f8f9fa;"><strong>Receivables AR Balance</strong></td>
+<td style="padding: 8px; border: 1px solid #ddd;">${receivables_ar_balance}</td>
+</tr>
+</tbody>
+</table>
+</div>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>eso rest notification</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>assignment_group.email</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject/>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-25 13:27:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e618a016c3ca1a10945e9e1d050131c9</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>eso rest notification</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="eSO Mockup" source="x_1040502_eso_mo_0">2a930f88c3211210945e9e1d05013139</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="eSO Mockup">2a930f88c3211210945e9e1d05013139</sys_scope>
+        <sys_update_name>sysevent_email_action_e618a016c3ca1a10945e9e1d050131c9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-26 04:27:05</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Employee notification template">1462e7ca918a3010f877b1d70a4d6a3d</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

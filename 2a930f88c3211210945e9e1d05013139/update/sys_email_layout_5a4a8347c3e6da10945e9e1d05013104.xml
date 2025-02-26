@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_email_layout">
+    <sys_email_layout action="INSERT_OR_UPDATE">
+        <advanced>false</advanced>
+        <advanced_layout/>
+        <description/>
+        <layout><![CDATA[<p></p>
+<style>
+    body {
+        font-family: 'Segoe UI', Arial, sans-serif;
+        background-color: #f9f9f9;
+        margin: 0;
+        padding: 0;
+    }
+    .email-container {
+        max-width: 600px;
+        margin: 30px auto;
+        background-color: #ffffff;
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    }
+    .email-header {
+        background-color: #005DAA; /* Panasonic's blue shade */
+        color: #ffffff;
+        padding: 30px;
+        text-align: center;
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .email-dynamic-body {
+        padding: 25px;
+        font-size: 16px;
+        line-height: 1.8;
+        color: #333333;
+    }
+    .email-footer {
+        background-color: #f1f1f1;
+        text-align: center;
+        padding: 15px;
+        font-size: 14px;
+        color: #777777;
+        border-top: 1px solid #dddddd;
+    }
+    .email-footer img {
+        width: auto; /* Maintain original proportions */
+        max-width: 100px; /* Make the logo smaller */
+        height: auto; /* Ensure aspect ratio is maintained */
+        display: block;
+        margin: 0 auto 10px; /* Center the logo */
+        background-color: #f1f1f1; /* Matches the footer background */
+        padding: 5px; /* Add padding for better presentation */
+        border-radius: 5px; /* Slightly rounded corners */
+    }
+    .email-footer a {
+        color: #005DAA;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .email-footer a:hover {
+        text-decoration: underline;
+    }
+</style>
+<div class="email-container"><!-- Email Header -->
+<div class="email-header">eSO</div>
+<!-- Email Dynamic Body -->
+<div class="email-dynamic-body"><!-- Dynamic content will be injected here --> ${notification:body}</div>
+<!-- Email Footer -->
+<div class="email-footer"><!-- Footer Image --> <img src="/sys_attachment.do?sys_id=609a8b83c3e6da10945e9e1d05013143" alt="Panasonic Logo"> <!-- Footer Text -->
+<p>&copy; 2024 Panasonic. All rights reserved.</p>
+</div>
+</div>]]></layout>
+        <name>eso mockup layout</name>
+        <sys_class_name>sys_email_layout</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-23 05:43:26</sys_created_on>
+        <sys_id>5a4a8347c3e6da10945e9e1d05013104</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>eso mockup layout</sys_name>
+        <sys_package display_value="eSO Mockup" source="x_1040502_eso_mo_0">2a930f88c3211210945e9e1d05013139</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="eSO Mockup">2a930f88c3211210945e9e1d05013139</sys_scope>
+        <sys_update_name>sys_email_layout_5a4a8347c3e6da10945e9e1d05013104</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-24 09:31:48</sys_updated_on>
+    </sys_email_layout>
+</record_update>

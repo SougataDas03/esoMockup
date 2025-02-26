@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_delta">
+    <sys_decision_delta action="DELETE">
+        <access>public</access>
+        <active>false</active>
+        <answer_table>sys_decision_multi_result</answer_table>
+        <answer_type>reference</answer_type>
+        <delta/>
+        <description/>
+        <enable_publishing>false</enable_publishing>
+        <label/>
+        <name>ESO Approval Decision delta</name>
+        <parent display_value="ESO Approval Decision">8d70502fc3625e10945e9e1d050131cb</parent>
+        <reference_qualifier/>
+        <status>draft</status>
+        <sys_class_name>sys_decision_delta</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-24 09:43:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e73b0d23c3e65e10945e9e1d05013126</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ESO Approval Decision delta</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="eSO Mockup" source="x_1040502_eso_mo_0">2a930f88c3211210945e9e1d05013139</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="eSO Mockup">2a930f88c3211210945e9e1d05013139</sys_scope>
+        <sys_update_name>sys_decision_delta_e73b0d23c3e65e10945e9e1d05013126</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-24 09:43:17</sys_updated_on>
+    </sys_decision_delta>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="eSO Mockup">2a930f88c3211210945e9e1d05013139</application>
+        <file_path/>
+        <instance_id>cca3323adb1a71542f082a5913961937</instance_id>
+        <instance_name>dev208145</instance_name>
+        <name>sys_decision_delta_e73b0d23c3e65e10945e9e1d05013126</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_delta"><sys_decision_delta action="INSERT_OR_UPDATE"><access>public</access><active>false</active><answer_table>sys_decision_multi_result</answer_table><answer_type>reference</answer_type><delta/><description/><enable_publishing>false</enable_publishing><label/><name>ESO Approval Decision delta</name><parent display_value="ESO Approval Decision">8d70502fc3625e10945e9e1d050131cb</parent><reference_qualifier/><status>draft</status><sys_class_name>sys_decision_delta</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-24 09:43:17</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>e73b0d23c3e65e10945e9e1d05013126</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ESO Approval Decision delta</sys_name><sys_overrides/><sys_package display_value="eSO Mockup" source="x_1040502_eso_mo_0">2a930f88c3211210945e9e1d05013139</sys_package><sys_policy/><sys_scope display_value="eSO Mockup">2a930f88c3211210945e9e1d05013139</sys_scope><sys_update_name>sys_decision_delta_e73b0d23c3e65e10945e9e1d05013126</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-24 09:43:17</sys_updated_on></sys_decision_delta></record_update>]]></payload>
+        <payload_hash>792866081</payload_hash>
+        <record_name>ESO Approval Decision delta</record_name>
+        <reverted_from/>
+        <source>4bf440c5c3261210945e9e1d05013101</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-24 09:43:17</sys_created_on>
+        <sys_id>673b49a3c3e65e10945e9e1d05013144</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>193f80c9fb70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-24 09:43:17</sys_updated_on>
+        <type>Delta Decision Table</type>
+        <update_guid>e73b0d23e2e65e102acb098e7227f929</update_guid>
+        <update_guid_history>e73b0d23e2e65e102acb098e7227f929:792866081</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-24 09:44:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_decision_delta">sys_decision_delta</sys_db_object>
+        <sys_id>6422a069f44a424ab0d9eaffa6d5cd09</sys_id>
+        <sys_metadata>e73b0d23c3e65e10945e9e1d05013126</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ESO Approval Decision delta</sys_name>
+        <sys_package display_value="eSO Mockup" source="x_1040502_eso_mo_0">2a930f88c3211210945e9e1d05013139</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="eSO Mockup">2a930f88c3211210945e9e1d05013139</sys_scope>
+        <sys_scope_delete display_value="">6320d1d0585d49868d4040a883e3a879</sys_scope_delete>
+        <sys_update_name>sys_decision_delta_e73b0d23c3e65e10945e9e1d05013126</sys_update_name>
+        <sys_update_version display_value="sys_decision_delta_e73b0d23c3e65e10945e9e1d05013126">673b49a3c3e65e10945e9e1d05013144</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-24 09:44:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

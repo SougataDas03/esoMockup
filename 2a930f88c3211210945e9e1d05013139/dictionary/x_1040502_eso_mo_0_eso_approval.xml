@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="1e64b098c3691210945e9e1d0501311c" extends="task" label="eSO" max_length="40" name="x_1040502_eso_mo_0_eso_approval" text_index="true" type="collection">
+        <element attributes="omit_sys_original=true" label="Account Receivable Balance" max_length="20" name="account_receivable_balance" type="currency"/>
+        <element choice="1" label="After RFI" max_length="40" name="after_rfi" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Send back to me" sequence="0" value="Send back to me"/>
+                <element inactive_on_update="false" label="Start form beginning" sequence="1" value="Start form beginning"/>
+            </choice>
+        </element>
+        <element label="Applicant name" max_length="32" name="applicant_name" reference="sys_user" type="reference"/>
+        <element choice="1" label="Application Status" max_length="40" name="application_status" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Approved" sequence="0" value="Approved"/>
+                <element inactive_on_update="false" label="Rejected" sequence="1" value="Rejeted"/>
+                <element inactive_on_update="false" label="Pending Approval" sequence="2" value="pending_approval"/>
+                <element inactive_on_update="false" label="Draft" sequence="3" value="Draft"/>
+            </choice>
+        </element>
+        <element default="1234000000" label="Approved Credit Limit" max_length="19" name="approved_credit_limit" read_only="true" type="currency"/>
+        <element default="0" label="Bank Guarantee Amount" max_length="40" name="bank_guarantee_amount" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="N.A." label="Bank Guarantee Expiry" max_length="40" name="bank_guarantee_expiry" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="S5 - Credit Block" label="Blocking Reason" max_length="40" name="blocking_reason" read_only="true" type="string"/>
+        <element attributes="omit_sys_original=true" label="Collection History ('000)" max_length="20" name="collection_history_000" type="currency"/>
+        <element label="Comment" max_length="40" name="comment" type="string"/>
+        <element default="12345678" label="Credit Card Limit Available" max_length="19" name="credit_card_limit_available" read_only="true" type="currency"/>
+        <element default="12342455" label="Credit Limit Used" max_length="20" name="credit_limit_used" read_only="true" type="currency"/>
+        <element label="% Credit Limit Used" max_length="15" name="credit_limit_used1" read_only="true" type="percent_complete"/>
+        <element attributes="edge_encryption_enabled=true" label="Currency" max_length="40" name="currency" type="string"/>
+        <element attributes="encode_utf8=false" default="Khach hang Shopee" label="CustomerName" max_length="32" name="customername" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="9000000114" label="Customer Code" max_length="40" name="customer_code" read_only="true" type="string"/>
+        <element default="9000000114" label="Customer Code (ship to party)" max_length="40" name="customer_code_ship_to_party" read_only="true" type="string"/>
+        <element default="Khach hang Shopee" label="Customer Name" max_length="40" name="customer_name" read_only="true" type="string"/>
+        <element default="VO THI HOAI THANH" label="Customer Name (ship to party)" max_length="40" name="customer_name_ship_to_party" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="241001DMQQWNSH" label="Customer PO Number" max_length="100" name="customer_po_number" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:gs.now()" dynamic_default_value="fb7553e85f220100a9ad2572f2b477b4" label="Date" max_length="40" name="date" read_only="true" type="glide_date" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true" default="10" label="Distribution channel" max_length="40" name="distribution_channel" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="01" label="Division" max_length="40" name="division" read_only="true" type="string"/>
+        <element label="Division Name" max_length="40" name="division_name" read_only="true" type="string"/>
+        <element label="Document Reference No" max_length="40" name="document_reference_no" read_only="true" type="string"/>
+        <element choice="1" label="Document Statu" max_length="40" name="document_status" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Approved" sequence="0" value="Approved"/>
+                <element inactive_on_update="false" label="Rejected" sequence="1" value="Rejected"/>
+                <element inactive_on_update="false" label="In Progress" sequence="2" value="In Progress"/>
+                <element inactive_on_update="false" label="Draft" sequence="3" value="Draft"/>
+            </choice>
+        </element>
+        <element default="N.A." label="Hader Text" max_length="40" name="hader_text" read_only="true" type="string"/>
+        <element label="Next Approver " max_length="1024" name="next_approver" reference="sys_user" type="glide_list"/>
+        <element label="Next Reviewer" max_length="32" name="next_reviewer" type="string"/>
+        <element choice="3" label="N / R" max_length="40" name="n_r" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="New" sequence="0" value="new"/>
+                <element inactive_on_update="false" label="Revised" sequence="1" value="revised"/>
+            </choice>
+        </element>
+        <element default="13746634" label="Opening Bill Document Value" max_length="40" name="opening_bill_document_value" read_only="true" type="string"/>
+        <element default="1234253" label="Open Delivery Value" max_length="19" name="open_delivery_value" read_only="true" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" default="N.A." label="Customer Payment Term" max_length="40" name="open_sales_order_value" read_only="true" type="string"/>
+        <element default="N.A." label="Order Reason" max_length="40" name="order_reason" read_only="true" type="string"/>
+        <element default="8,550,000.00" label="Total Sales Order Amount" max_length="40" name="otal_sales_order_amount" read_only="true" type="string"/>
+        <element label="Pervious Approvers" max_length="1024" name="pervious_approvers" type="string"/>
+        <element default="Pending" label="Post Flag" max_length="40" name="post_flag" read_only="true" type="string"/>
+        <element default="javascript:gs.nowDateTime()" dynamic_default_value="79cb83a85f220100a9ad2572f2b4773c" label="Po Date" max_length="255" name="po_date" read_only="true" type="glide_date_time" use_dynamic_default="true"/>
+        <element default="Thi Huong Hoang" label="Prepared By" max_length="40" name="prepared_by" read_only="true" type="string"/>
+        <element default="EC Team" label="Profit center Name" max_length="40" name="profit_center_name" read_only="true" type="string"/>
+        <element default="1234345" label="Receivables AR Balance" max_length="19" name="receivables_ar_balance" read_only="true" type="currency"/>
+        <element default="javascript:gs.nowDateTime()" dynamic_default_value="79cb83a85f220100a9ad2572f2b4773c" label="Requested Delivery Date" max_length="255" name="requested_delivery_date" read_only="true" type="glide_date_time" use_dynamic_default="true"/>
+        <element default="N.A." label="Requestor/PIC (sales employee)" max_length="40" name="requestor_pic_sales_employee" read_only="true" type="string"/>
+        <element label="Review list" max_length="40" name="review_list" type="string"/>
+        <element choice="1" label="Revision" max_length="40" name="revision" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="New" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="Revised" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="After RFI" max_length="40" name="rfi" read_only="true" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="RFI recipient" max_length="40" name="rfi_recipien0" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Applicant" sequence="0" value="Applicant"/>
+                <element inactive_on_update="false" label="Previous Approver" sequence="1" value="Previous Approver"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="RFI Recipient" max_length="40" name="rfi_recipient" read_only="true" type="string">
+            <choice/>
+        </element>
+        <element label="RFI Revision No" max_length="40" name="rfi_revision_no" type="string"/>
+        <element default="002" label="Risk Category" max_length="40" name="risk_category" read_only="true" type="string"/>
+        <element label="Routing Level" max_length="40" name="routing_level" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="XOR" label="Sales Document Type" max_length="40" name="sales_document_type" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="Standard Order" label="Sales Document Type Description" max_length="100" name="sales_document_type_description" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="V10" label="Sales Group" max_length="40" name="sales_group" read_only="true" type="string"/>
+        <element default="Others" label="Sales Group Description" max_length="40" name="sales_group_description" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="9501" label="Sales Office" max_length="40" name="sales_office" read_only="true" type="string"/>
+        <element attributes="omit_sys_original=true" default="1234" label="Sales Order Currency" max_length="20" name="sales_order_currency" read_only="true" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:gs.now()" dynamic_default_value="fb7553e85f220100a9ad2572f2b477b4" label="Sales Order Date" max_length="40" name="sales_order_date" read_only="true" type="glide_date" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true" default="9513336963" label="Sales Order Number" max_length="100" name="sales_order_number" read_only="true" type="string"/>
+        <element default="N.A." label="Sales Order Payment New Value" max_length="40" name="sales_order_payment_new_value" read_only="true" type="string"/>
+        <element default="N.A." label="Sales Order Payment Old Value" max_length="40" name="sales_order_payment_old_value" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="7950" label="Sales Organisation" max_length="40" name="sales_organisation" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="70J9106" label="SAP ID" max_length="40" name="sap_id" read_only="true" type="string"/>
+        <element label="Special Liability" max_length="15" name="special_liability" read_only="true" type="decimal"/>
+        <element label="Submit Date &amp; Time" max_length="255" name="submit_date" read_only="true" type="glide_date_time"/>
+        <element default="8,550,000.00" label="Total Condition Value" max_length="40" name="total_condition_value" read_only="true" type="string"/>
+        <element default="855,000" label="Total VAT Amount" max_length="40" name="total_vat_amount" read_only="true" type="string"/>
+        <element label="New Name-Value Pairs" max_length="4000" name="u_simple_name_values_4" type="simple_name_values"/>
+        <element attributes="base_start=true" label="New Table Name" max_length="80" name="u_table_name_1" type="table_name"/>
+        <element attributes="is_multi_text=true,preview_first=true,preview_selector=true" label="New Wiki" max_length="65536" name="u_wiki_text_2" type="wiki_text"/>
+    </element>
+</database>

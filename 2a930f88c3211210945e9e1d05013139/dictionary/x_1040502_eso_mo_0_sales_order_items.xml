@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="132a8918c3e91210945e9e1d05013107" extends="task" label="Sales Order Items" max_length="40" name="x_1040502_eso_mo_0_sales_order_items" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="VND" label="Currency" max_length="40" name="cur" type="string"/>
+        <element default="javascript:gs.now()" dynamic_default_value="fb7553e85f220100a9ad2572f2b477b4" label="Dau Date" max_length="40" name="dau_date" type="glide_date" use_dynamic_default="true"/>
+        <element default="0.00" label="Diff Amt. %" max_length="38" name="diff_am0" type="percent_complete"/>
+        <element default="0" label="Diff Amt." max_length="40" name="diff_amt" type="string"/>
+        <element default="0" label="Dis Amt. %" max_length="40" name="dis_am0" type="string"/>
+        <element label="Dis Amt." max_length="40" name="dis_amt" type="string"/>
+        <element label="Due Date" max_length="40" name="due_dat0" type="glide_date_time"/>
+        <element default="ZTAN" label="Item Cat" max_length="40" name="item_cat" type="string"/>
+        <element default="Standard Item" label="Item Description" max_length="40" name="item_description" type="string"/>
+        <element default="Singapore" label="Location" max_length="40" name="locatio0" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="Panasoinc Washer 10.5kg" label="Mat.Desc" max_length="100" name="mat_desc" type="string"/>
+        <element default="Wm" label="Mat Group" max_length="40" name="mat_group" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="Na-FD10AR" label="Mat.No" max_length="100" name="mat_no" type="string"/>
+        <element default="2" label="Qty" max_length="40" name="qty" type="integer"/>
+        <element label="Remarks" max_length="40" name="remarks" type="string"/>
+        <element label="SN" max_length="40" name="sn" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="SO Item" max_length="40" name="so_item" type="string"/>
+        <element default="1232425" label="So Item Amount" max_length="40" name="so_item_amount" type="string"/>
+        <element default="0" label="So Item new Value" max_length="40" name="so_item_new_value" type="string"/>
+        <element default="0" label="So Item Old Value" max_length="40" name="so_item_old_value" type="string"/>
+        <element default="PC" label="Umo" max_length="40" name="umo" read_only="true" type="string"/>
+        <element default="85,55,000" label="Unit Price" max_length="40" name="unit_pric0" type="string"/>
+        <element default="199000" label="Unit Price" max_length="19" name="unit_price" type="longint"/>
+        <element attributes="edge_encryption_enabled=true" default="PC" label="UOM" max_length="40" name="uom" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_aw_form_header">
+    <sys_aw_form_header action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <header_image/>
+        <hide_tags>false</hide_tags>
+        <ignore_highlight>false</ignore_highlight>
+        <order>100</order>
+        <primary_field>short_description</primary_field>
+        <secondary_fields/>
+        <specificity>20</specificity>
+        <subheading/>
+        <sys_class_name>sys_aw_form_header</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-12 07:36:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e9881046c3f95210945e9e1d05013133</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1040502_eso_mo_0_eso_approval</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="eSO Mockup" source="x_1040502_eso_mo_0">2a930f88c3211210945e9e1d05013139</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="eSO Mockup">2a930f88c3211210945e9e1d05013139</sys_scope>
+        <sys_update_name>sys_aw_form_header_e9881046c3f95210945e9e1d05013133</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-12 07:36:32</sys_updated_on>
+        <table>x_1040502_eso_mo_0_eso_approval</table>
+        <workspace/>
+    </sys_aw_form_header>
+</record_update>

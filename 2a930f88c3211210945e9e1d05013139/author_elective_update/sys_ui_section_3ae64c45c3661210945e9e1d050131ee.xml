@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Credit Information" section_id="3ae64c45c3661210945e9e1d050131ee" sys_domain="global" table="x_1040502_eso_mo_0_approval_history" version="3" view="workspace-eso-mockup-1">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-16 10:19:57</sys_created_on>
+            <sys_id>f6e64c45c3661210945e9e1d050131ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Credit Information" display_value="Credit Information" name="x_1040502_eso_mo_0_approval_history" sys_domain="global" view="650ad8ed63e95610942e5bdd4d1252ef">3ae64c45c3661210945e9e1d050131ee</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-16 10:19:57</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>approved_credit_limit</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-16 10:19:57</sys_created_on>
+            <sys_id>f6e64c45c3661210945e9e1d050131f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Credit Information" display_value="Credit Information" name="x_1040502_eso_mo_0_approval_history" sys_domain="global" view="650ad8ed63e95610942e5bdd4d1252ef">3ae64c45c3661210945e9e1d050131ee</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-16 10:19:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>credit_card_limit_available</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-16 10:19:57</sys_created_on>
+            <sys_id>fee64c45c3661210945e9e1d050131f2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Credit Information" display_value="Credit Information" name="x_1040502_eso_mo_0_approval_history" sys_domain="global" view="650ad8ed63e95610942e5bdd4d1252ef">3ae64c45c3661210945e9e1d050131ee</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-16 10:19:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>receivables_ar_balance</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-16 10:19:57</sys_created_on>
+            <sys_id>f6e64c45c3661210945e9e1d050131f1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Credit Information" display_value="Credit Information" name="x_1040502_eso_mo_0_approval_history" sys_domain="global" view="650ad8ed63e95610942e5bdd4d1252ef">3ae64c45c3661210945e9e1d050131ee</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-16 10:19:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>open_sales_order_value</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-16 10:19:57</sys_created_on>
+            <sys_id>fee64c45c3661210945e9e1d050131ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Credit Information" display_value="Credit Information" name="x_1040502_eso_mo_0_approval_history" sys_domain="global" view="650ad8ed63e95610942e5bdd4d1252ef">3ae64c45c3661210945e9e1d050131ee</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-16 10:19:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>open_delivery_value</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-16 10:19:57</sys_created_on>
+            <sys_id>fee64c45c3661210945e9e1d050131f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Credit Information" display_value="Credit Information" name="x_1040502_eso_mo_0_approval_history" sys_domain="global" view="650ad8ed63e95610942e5bdd4d1252ef">3ae64c45c3661210945e9e1d050131ee</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-16 10:19:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-16 10:19:57</sys_created_on>
+            <sys_id>f6e64c45c3661210945e9e1d050131f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Credit Information" display_value="Credit Information" name="x_1040502_eso_mo_0_approval_history" sys_domain="global" view="650ad8ed63e95610942e5bdd4d1252ef">3ae64c45c3661210945e9e1d050131ee</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-16 10:19:57</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>bank_guarantee_expiry</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-16 10:19:57</sys_created_on>
+            <sys_id>fee64c45c3661210945e9e1d050131f1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Credit Information" display_value="Credit Information" name="x_1040502_eso_mo_0_approval_history" sys_domain="global" view="650ad8ed63e95610942e5bdd4d1252ef">3ae64c45c3661210945e9e1d050131ee</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-16 10:19:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>credit_limit_used</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-16 10:19:57</sys_created_on>
+            <sys_id>f6e64c45c3661210945e9e1d050131f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Credit Information" display_value="Credit Information" name="x_1040502_eso_mo_0_approval_history" sys_domain="global" view="650ad8ed63e95610942e5bdd4d1252ef">3ae64c45c3661210945e9e1d050131ee</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-16 10:19:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>credit_limit_used1</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-16 10:19:57</sys_created_on>
+            <sys_id>f6e64c45c3661210945e9e1d050131f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Credit Information" display_value="Credit Information" name="x_1040502_eso_mo_0_approval_history" sys_domain="global" view="650ad8ed63e95610942e5bdd4d1252ef">3ae64c45c3661210945e9e1d050131ee</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-16 10:19:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>special_liability</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-16 10:19:57</sys_created_on>
+            <sys_id>fee64c45c3661210945e9e1d050131f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Credit Information" display_value="Credit Information" name="x_1040502_eso_mo_0_approval_history" sys_domain="global" view="650ad8ed63e95610942e5bdd4d1252ef">3ae64c45c3661210945e9e1d050131ee</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-16 10:19:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sales_order_currency</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-16 10:19:57</sys_created_on>
+            <sys_id>f6e64c45c3661210945e9e1d050131f2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Credit Information" display_value="Credit Information" name="x_1040502_eso_mo_0_approval_history" sys_domain="global" view="650ad8ed63e95610942e5bdd4d1252ef">3ae64c45c3661210945e9e1d050131ee</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-16 10:19:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-16 10:19:57</sys_created_on>
+            <sys_id>fee64c45c3661210945e9e1d050131f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Credit Information" display_value="Credit Information" name="x_1040502_eso_mo_0_approval_history" sys_domain="global" view="650ad8ed63e95610942e5bdd4d1252ef">3ae64c45c3661210945e9e1d050131ee</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-16 10:19:57</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Credit Information</caption>
+            <header>false</header>
+            <name>x_1040502_eso_mo_0_approval_history</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-16 10:19:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3ae64c45c3661210945e9e1d050131ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1040502_eso_mo_0_approval_history</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="eSO Mockup" source="x_1040502_eso_mo_0">2a930f88c3211210945e9e1d05013139</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="eSO Mockup">2a930f88c3211210945e9e1d05013139</sys_scope>
+            <sys_update_name>sys_ui_section_3ae64c45c3661210945e9e1d050131ee</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-16 10:19:57</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace eSO Mockup 1" name="workspace-eso-mockup-1">650ad8ed63e95610942e5bdd4d1252ef</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="eSO Mockup">2a930f88c3211210945e9e1d05013139</application>
+        <file_path/>
+        <instance_id>cca3323adb1a71542f082a5913961937</instance_id>
+        <instance_name>dev208145</instance_name>
+        <name>sys_ui_section_3ae64c45c3661210945e9e1d050131ee</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Credit Information" section_id="3ae64c45c3661210945e9e1d050131ee" sys_domain="global" table="x_1040502_eso_mo_0_approval_history" version="3" view="workspace-eso-mockup-1"><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-16 10:19:57</sys_created_on><sys_id>f6e64c45c3661210945e9e1d050131ef</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Credit Information" display_value="Credit Information" name="x_1040502_eso_mo_0_approval_history" sys_domain="global" view="650ad8ed63e95610942e5bdd4d1252ef">3ae64c45c3661210945e9e1d050131ee</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-16 10:19:57</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>approved_credit_limit</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-16 10:19:57</sys_created_on><sys_id>f6e64c45c3661210945e9e1d050131f4</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Credit Information" display_value="Credit Information" name="x_1040502_eso_mo_0_approval_history" sys_domain="global" view="650ad8ed63e95610942e5bdd4d1252ef">3ae64c45c3661210945e9e1d050131ee</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-16 10:19:57</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>credit_card_limit_available</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-16 10:19:57</sys_created_on><sys_id>fee64c45c3661210945e9e1d050131f2</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Credit Information" display_value="Credit Information" name="x_1040502_eso_mo_0_approval_history" sys_domain="global" view="650ad8ed63e95610942e5bdd4d1252ef">3ae64c45c3661210945e9e1d050131ee</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-16 10:19:57</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>receivables_ar_balance</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-16 10:19:57</sys_created_on><sys_id>f6e64c45c3661210945e9e1d050131f1</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Credit Information" display_value="Credit Information" name="x_1040502_eso_mo_0_approval_history" sys_domain="global" view="650ad8ed63e95610942e5bdd4d1252ef">3ae64c45c3661210945e9e1d050131ee</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-16 10:19:57</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>open_sales_order_value</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-16 10:19:57</sys_created_on><sys_id>fee64c45c3661210945e9e1d050131ef</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Credit Information" display_value="Credit Information" name="x_1040502_eso_mo_0_approval_history" sys_domain="global" view="650ad8ed63e95610942e5bdd4d1252ef">3ae64c45c3661210945e9e1d050131ee</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-16 10:19:57</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>open_delivery_value</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-16 10:19:57</sys_created_on><sys_id>fee64c45c3661210945e9e1d050131f4</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Credit Information" display_value="Credit Information" name="x_1040502_eso_mo_0_approval_history" sys_domain="global" view="650ad8ed63e95610942e5bdd4d1252ef">3ae64c45c3661210945e9e1d050131ee</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-16 10:19:57</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-16 10:19:57</sys_created_on><sys_id>f6e64c45c3661210945e9e1d050131f3</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Credit Information" display_value="Credit Information" name="x_1040502_eso_mo_0_approval_history" sys_domain="global" view="650ad8ed63e95610942e5bdd4d1252ef">3ae64c45c3661210945e9e1d050131ee</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-16 10:19:57</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>bank_guarantee_expiry</element><position>7</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-16 10:19:57</sys_created_on><sys_id>fee64c45c3661210945e9e1d050131f1</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Credit Information" display_value="Credit Information" name="x_1040502_eso_mo_0_approval_history" sys_domain="global" view="650ad8ed63e95610942e5bdd4d1252ef">3ae64c45c3661210945e9e1d050131ee</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-16 10:19:57</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>credit_limit_used</element><position>8</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-16 10:19:57</sys_created_on><sys_id>f6e64c45c3661210945e9e1d050131f0</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Credit Information" display_value="Credit Information" name="x_1040502_eso_mo_0_approval_history" sys_domain="global" view="650ad8ed63e95610942e5bdd4d1252ef">3ae64c45c3661210945e9e1d050131ee</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-16 10:19:57</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>credit_limit_used1</element><position>9</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-16 10:19:57</sys_created_on><sys_id>f6e64c45c3661210945e9e1d050131f5</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Credit Information" display_value="Credit Information" name="x_1040502_eso_mo_0_approval_history" sys_domain="global" view="650ad8ed63e95610942e5bdd4d1252ef">3ae64c45c3661210945e9e1d050131ee</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-16 10:19:57</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>special_liability</element><position>10</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-16 10:19:57</sys_created_on><sys_id>fee64c45c3661210945e9e1d050131f3</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Credit Information" display_value="Credit Information" name="x_1040502_eso_mo_0_approval_history" sys_domain="global" view="650ad8ed63e95610942e5bdd4d1252ef">3ae64c45c3661210945e9e1d050131ee</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-16 10:19:57</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>sales_order_currency</element><position>11</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-16 10:19:57</sys_created_on><sys_id>f6e64c45c3661210945e9e1d050131f2</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Credit Information" display_value="Credit Information" name="x_1040502_eso_mo_0_approval_history" sys_domain="global" view="650ad8ed63e95610942e5bdd4d1252ef">3ae64c45c3661210945e9e1d050131ee</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-16 10:19:57</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>12</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-16 10:19:57</sys_created_on><sys_id>fee64c45c3661210945e9e1d050131f0</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Credit Information" display_value="Credit Information" name="x_1040502_eso_mo_0_approval_history" sys_domain="global" view="650ad8ed63e95610942e5bdd4d1252ef">3ae64c45c3661210945e9e1d050131ee</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-16 10:19:57</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Credit Information</caption><header>false</header><name>x_1040502_eso_mo_0_approval_history</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-16 10:19:57</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3ae64c45c3661210945e9e1d050131ee</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1040502_eso_mo_0_approval_history</sys_name><sys_overrides/><sys_package display_value="eSO Mockup" source="x_1040502_eso_mo_0">2a930f88c3211210945e9e1d05013139</sys_package><sys_policy/><sys_scope display_value="eSO Mockup">2a930f88c3211210945e9e1d05013139</sys_scope><sys_update_name>sys_ui_section_3ae64c45c3661210945e9e1d050131ee</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-16 10:19:57</sys_updated_on><sys_user/><title>false</title><view display_value="Workspace eSO Mockup 1" name="workspace-eso-mockup-1">650ad8ed63e95610942e5bdd4d1252ef</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>521444527</payload_hash>
+        <record_name>Approval History</record_name>
+        <reverted_from/>
+        <source>4bf440c5c3261210945e9e1d05013101</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-16 10:19:57</sys_created_on>
+        <sys_id>f2e64c45c3661210945e9e1d050131f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>193cefb52f90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-16 10:19:57</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>7ae64c45e966121028bf7f47ffde6af7</update_guid>
+        <update_guid_history>7ae64c45e966121028bf7f47ffde6af7:521444527</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-08 07:01:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>5bee9e08aa054d1084ed706a0a09d040</sys_id>
+        <sys_metadata>3ae64c45c3661210945e9e1d050131ee</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Credit Information</sys_name>
+        <sys_package display_value="eSO Mockup" source="x_1040502_eso_mo_0">2a930f88c3211210945e9e1d05013139</sys_package>
+        <sys_parent display_value="">7de64c45c3661210945e9e1d05013119</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="eSO Mockup">2a930f88c3211210945e9e1d05013139</sys_scope>
+        <sys_scope_delete display_value="">6320d1d0585d49868d4040a883e3a879</sys_scope_delete>
+        <sys_update_name>sys_ui_section_3ae64c45c3661210945e9e1d050131ee</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_3ae64c45c3661210945e9e1d050131ee">f2e64c45c3661210945e9e1d050131f8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-08 07:01:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

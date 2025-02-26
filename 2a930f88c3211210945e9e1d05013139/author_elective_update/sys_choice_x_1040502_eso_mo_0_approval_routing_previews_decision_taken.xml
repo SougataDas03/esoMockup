@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="decision_taken" table="x_1040502_eso_mo_0_approval_routing_previews" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>decision_taken</element>
+            <name>x_1040502_eso_mo_0_approval_routing_previews</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-16 14:59:12</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>decision_taken</sys_name>
+            <sys_package display_value="eSO Mockup" source="x_1040502_eso_mo_0">2a930f88c3211210945e9e1d05013139</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="eSO Mockup">2a930f88c3211210945e9e1d05013139</sys_scope>
+            <sys_update_name>sys_choice_x_1040502_eso_mo_0_approval_routing_previews_decision_taken</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-16 14:59:12</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>decision_taken</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Approved</label>
+            <language>en</language>
+            <name>x_1040502_eso_mo_0_approval_routing_previews</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-16 14:59:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-16 15:10:57</sys_updated_on>
+            <value>Approval</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>decision_taken</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Reject</label>
+            <language>en</language>
+            <name>x_1040502_eso_mo_0_approval_routing_previews</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-16 14:59:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-16 14:59:12</sys_updated_on>
+            <value>Reject</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>decision_taken</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>RFI</label>
+            <language>en</language>
+            <name>x_1040502_eso_mo_0_approval_routing_previews</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-16 14:59:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-16 14:59:12</sys_updated_on>
+            <value>RFI</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>decision_taken</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No Longer Required</label>
+            <language>en</language>
+            <name>x_1040502_eso_mo_0_approval_routing_previews</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-23 06:27:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-23 06:27:57</sys_updated_on>
+            <value>No Longer Required</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

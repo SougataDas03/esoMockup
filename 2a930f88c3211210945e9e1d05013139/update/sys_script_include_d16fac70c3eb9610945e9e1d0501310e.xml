@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>false</active>
+        <api_name>x_1040502_eso_mo_0.RFIApprovalHandler</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>RFIApprovalHandler</name>
+        <script><![CDATA[  var RFIApprovalHandler = Class.create();
+RFIApprovalHandler.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    handleRFIApproval: function() {
+		gs.info("Handle SI Called")
+        var incParent = this.getParameter('sysparm_inc_parent');
+        var currentUserSysId = this.getParameter('sysparm_current_user');
+		
+       var after_rfi = this.getParameter('sysparm_after_rfi');
+        var rfi_recipient = this.getParameter('sysparm_rfi_recipient');
+        var previous_approver = this.getParameter('sysparm_previous_approver');
+        // var approver = this.getParameter('sysparm_approver');
+        var comment = this.getParameter('sysparm_inc_comments');
+
+
+		gs.info('incParent: ' + incParent + ', currentUserSysId: ' + currentUserSysId + ', after_rfi: ' + after_rfi + ', rfi_recipient: ' + rfi_recipient + ', previous_approver: ' + previous_approver + ', comment: ' + comment);
+        
+
+		
+
+        var currentUserGroup = '';
+        var currentLevel = 0;
+		var approvalCreatedOn = '';
+
+        // if (currentUserSysId) {
+        //     var groupMemberGR = new GlideRecord('sys_user_grmember');
+        //     groupMemberGR.addQuery('user', currentUserSysId);
+        //     groupMemberGR.orderBy('group.name');
+        //     groupMemberGR.query();
+        //     if (groupMemberGR.next()) {
+        //         currentUserGroup = groupMemberGR.group.toString();
+        //     }
+        // }
+
+		var groupMemberGR = new GlideRecord('sysapproval_approver');
+		groupMemberGR.addQuery('document_id',incParent);
+		groupMemberGR.addQuery('approver',currentUserSysId);
+		groupMemberGR.query();
+		if(groupMemberGR.next()){
+			currentUserGroup = groupMemberGR.group.assignment_group;
+		}
+
+
+
+        var approvalHistoryGR = new GlideRecord('x_1097202_epos_approval_history');
+        approvalHistoryGR.addQuery('parent', incParent);
+        approvalHistoryGR.orderByDesc('level');
+        approvalHistoryGR.query();
+        if (approvalHistoryGR.next()) {
+            currentLevel = parseInt(approvalHistoryGR.level, 10) + 1;
+        } else {
+            currentLevel = 1;
+        }
+
+        var approvalGR = new GlideRecord('sysapproval_approver');
+        approvalGR.addQuery('sysapproval', incParent);
+        approvalGR.addQuery('approver', currentUserSysId);
+        approvalGR.addQuery('group.assignment_group', currentUserGroup);
+        approvalGR.query();
+        if (approvalGR.next()) {
+            approvalCreatedOn = approvalGR.sys_created_on.toString(); 
+        }
+
+        var approvalHistory = new GlideRecord('x_1097202_epos_approval_history');
+        approvalHistory.initialize();
+        approvalHistory.parent = incParent;
+        approvalHistory.approver = currentUserSysId;
+        approvalHistory.approval_group = currentUserGroup;
+		approvalHistory.x_1040502_eso_mo_0_assign_date_time = approvalCreatedOn;
+        approvalHistory.decision_taken = 'RFI';
+        approvalHistory.comment = comment;
+        approvalHistory.decision_date_time = new GlideDateTime();
+        approvalHistory.level = currentLevel;
+        approvalHistory.insert();
+
+		var gr = new GlideRecord('x_1040502_eso_mo_0_rfi');
+		gr.initialize();
+		gr.eso_record = incParent;
+		gr.assignment_group = currentUserGroup;
+		//gr.approval_record=;
+		gr.approver = currentUserSysId;
+		gr.assignment_groups = currentUserGroup;
+		gr.comment = comment;
+		gr.insert();
+
+    },
+
+    type: 'RFIApprovalHandler'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-03 11:42:13</sys_created_on>
+        <sys_id>d16fac70c3eb9610945e9e1d0501310e</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>RFIApprovalHandler</sys_name>
+        <sys_package display_value="eSO Mockup" source="x_1040502_eso_mo_0">2a930f88c3211210945e9e1d05013139</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="eSO Mockup">2a930f88c3211210945e9e1d05013139</sys_scope>
+        <sys_update_name>sys_script_include_d16fac70c3eb9610945e9e1d0501310e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-10 16:53:11</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>d16fac70c3eb9610945e9e1d0501310e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-03 11:42:12</sys_created_on>
+        <sys_id>a1af6c30c3eb9610945e9e1d050131b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-03 11:42:12</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

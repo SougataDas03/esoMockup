@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_multi_result">
+    <sys_decision_multi_result action="DELETE">
+        <decision_table display_value="ESO Approval Decision delta">e73b0d23c3e65e10945e9e1d05013126</decision_table>
+        <label>Approver 1: PIDSAP HR (Local) Approver, Approver 2: PIDSAP-AC EMS Sales Executive Director, Approver 3: Planning Director, Approver 4: Planning General Manager</label>
+        <result_elements/>
+        <sys_class_name>sys_decision_multi_result</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-24 09:44:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>236b8d23c3e65e10945e9e1d05013163</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Approver 1: PIDSAP HR (Local) Approver, Approver 2: PIDSAP-AC EMS Sales Executive Director, Approver 3: Planning Director, Approver 4: Planning General Manager</sys_name>
+        <sys_package display_value="eSO Mockup" source="x_1040502_eso_mo_0">2a930f88c3211210945e9e1d05013139</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="eSO Mockup">2a930f88c3211210945e9e1d05013139</sys_scope>
+        <sys_update_name>sys_decision_multi_result_236b8d23c3e65e10945e9e1d05013163</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-24 09:44:06</sys_updated_on>
+    </sys_decision_multi_result>
+    <sys_variable_value action="DELETE" query="document_key=236b8d23c3e65e10945e9e1d05013163"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_decision_multi_result</document>
+        <document_key>236b8d23c3e65e10945e9e1d05013163</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-24 09:44:06</sys_created_on>
+        <sys_id>636b8d23c3e65e10945e9e1d05013165</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-24 09:44:06</sys_updated_on>
+        <value>3001818ac364d210945e9e1d050131bd</value>
+        <variable display_value="Approver 2">733b49a3c3e65e10945e9e1d0501318e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_decision_multi_result</document>
+        <document_key>236b8d23c3e65e10945e9e1d05013163</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-24 09:44:06</sys_created_on>
+        <sys_id>a36b8d23c3e65e10945e9e1d05013164</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-24 09:44:06</sys_updated_on>
+        <value>0e4bf006c364d210945e9e1d050131db</value>
+        <variable display_value="Approver 4">c04b49a3c3e65e10945e9e1d050131b2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_decision_multi_result</document>
+        <document_key>236b8d23c3e65e10945e9e1d05013163</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-24 09:44:06</sys_created_on>
+        <sys_id>af6b8d23c3e65e10945e9e1d05013164</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-24 09:44:06</sys_updated_on>
+        <value>76bdfc46c364d210945e9e1d05013136</value>
+        <variable display_value="Approver 3">004b49a3c3e65e10945e9e1d050131a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_decision_multi_result</document>
+        <document_key>236b8d23c3e65e10945e9e1d05013163</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-24 09:44:06</sys_created_on>
+        <sys_id>eb6b8d23c3e65e10945e9e1d05013164</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-24 09:44:06</sys_updated_on>
+        <value>671289cac364d210945e9e1d05013143</value>
+        <variable display_value="Approver 1">773b49a3c3e65e10945e9e1d0501316e</variable>
+    </sys_variable_value>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="eSO Mockup">2a930f88c3211210945e9e1d05013139</application>
+        <file_path/>
+        <instance_id>cca3323adb1a71542f082a5913961937</instance_id>
+        <instance_name>dev208145</instance_name>
+        <name>sys_decision_multi_result_236b8d23c3e65e10945e9e1d05013163</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_multi_result"><sys_decision_multi_result action="INSERT_OR_UPDATE"><decision_table display_value="ESO Approval Decision delta">e73b0d23c3e65e10945e9e1d05013126</decision_table><label>Approver 1: PIDSAP HR (Local) Approver, Approver 2: PIDSAP-AC EMS Sales Executive Director, Approver 3: Planning Director, Approver 4: Planning General Manager</label><result_elements/><sys_class_name>sys_decision_multi_result</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-24 09:44:06</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>236b8d23c3e65e10945e9e1d05013163</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Approver 1: PIDSAP HR (Local) Approver, Approver 2: PIDSAP-AC EMS Sales Executive Director, Approver 3: Planning Director, Approver 4: Planning General Manager</sys_name><sys_package display_value="eSO Mockup" source="x_1040502_eso_mo_0">2a930f88c3211210945e9e1d05013139</sys_package><sys_policy/><sys_scope display_value="eSO Mockup">2a930f88c3211210945e9e1d05013139</sys_scope><sys_update_name>sys_decision_multi_result_236b8d23c3e65e10945e9e1d05013163</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-24 09:44:06</sys_updated_on></sys_decision_multi_result><sys_variable_value action="delete_multiple" query="document_key=236b8d23c3e65e10945e9e1d05013163"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_decision_multi_result</document><document_key>236b8d23c3e65e10945e9e1d05013163</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-24 09:44:06</sys_created_on><sys_id>636b8d23c3e65e10945e9e1d05013165</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-24 09:44:06</sys_updated_on><value>3001818ac364d210945e9e1d050131bd</value><variable display_value="Approver 2">733b49a3c3e65e10945e9e1d0501318e</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_decision_multi_result</document><document_key>236b8d23c3e65e10945e9e1d05013163</document_key><order>400</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-24 09:44:06</sys_created_on><sys_id>a36b8d23c3e65e10945e9e1d05013164</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-24 09:44:06</sys_updated_on><value>0e4bf006c364d210945e9e1d050131db</value><variable display_value="Approver 4">c04b49a3c3e65e10945e9e1d050131b2</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_decision_multi_result</document><document_key>236b8d23c3e65e10945e9e1d05013163</document_key><order>300</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-24 09:44:06</sys_created_on><sys_id>af6b8d23c3e65e10945e9e1d05013164</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-24 09:44:06</sys_updated_on><value>76bdfc46c364d210945e9e1d05013136</value><variable display_value="Approver 3">004b49a3c3e65e10945e9e1d050131a0</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_decision_multi_result</document><document_key>236b8d23c3e65e10945e9e1d05013163</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-24 09:44:06</sys_created_on><sys_id>eb6b8d23c3e65e10945e9e1d05013164</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-24 09:44:06</sys_updated_on><value>671289cac364d210945e9e1d05013143</value><variable display_value="Approver 1">773b49a3c3e65e10945e9e1d0501316e</variable></sys_variable_value></record_update>]]></payload>
+        <payload_hash>-1639231778</payload_hash>
+        <record_name>Approver 1: PIDSAP HR (Local) Approver, Approver 2: PIDSAP-AC EMS Sales Executive Director, Approver</record_name>
+        <reverted_from/>
+        <source>4bf440c5c3261210945e9e1d05013101</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-24 09:44:06</sys_created_on>
+        <sys_id>ab6b4da3c3e65e10945e9e1d05013166</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>193f80d5f830000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-24 09:44:06</sys_updated_on>
+        <type>Decision Table Multiple Result</type>
+        <update_guid>af6b4da345e65e104b080754a994db65</update_guid>
+        <update_guid_history>af6b4da345e65e104b080754a994db65:-1639231778</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-24 09:44:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_decision_multi_result">sys_decision_multi_result</sys_db_object>
+        <sys_id>28cef07c9e7a483e8ecec0db204045a4</sys_id>
+        <sys_metadata>236b8d23c3e65e10945e9e1d05013163</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Approver 1: PIDSAP HR (Local) Approver, Approver 2: PIDSAP-AC EMS Sales Executive Director, Approver 3: Planning Director, Approver 4: Planning General Manager</sys_name>
+        <sys_package display_value="eSO Mockup" source="x_1040502_eso_mo_0">2a930f88c3211210945e9e1d05013139</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="eSO Mockup">2a930f88c3211210945e9e1d05013139</sys_scope>
+        <sys_scope_delete display_value="">6320d1d0585d49868d4040a883e3a879</sys_scope_delete>
+        <sys_update_name>sys_decision_multi_result_236b8d23c3e65e10945e9e1d05013163</sys_update_name>
+        <sys_update_version display_value="sys_decision_multi_result_236b8d23c3e65e10945e9e1d05013163">ab6b4da3c3e65e10945e9e1d05013166</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-24 09:44:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

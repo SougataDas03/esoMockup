@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="History " section_id="7a51871bc3e11210945e9e1d05013152" sys_domain="global" table="x_1040502_eso_mo_0_eso_approval" version="3" view="workspace-eso-0">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-29 07:36:34</sys_created_on>
+            <sys_id>9d355069c3e95610945e9e1d0501312c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-29 07:36:34</sys_updated_on>
+            <text>AR Sales Value</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>account_receivable_balance</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-04 06:38:04</sys_created_on>
+            <sys_id>b651871bc3e11210945e9e1d05013154</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="History " display_value="History " name="x_1040502_eso_mo_0_eso_approval" sys_domain="global" view="9951c31bfbe112109c68e69ceb6ee803">7a51871bc3e11210945e9e1d05013152</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-04 06:38:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>currency</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-04 06:38:04</sys_created_on>
+            <sys_id>be51871bc3e11210945e9e1d05013155</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="History " display_value="History " name="x_1040502_eso_mo_0_eso_approval" sys_domain="global" view="9951c31bfbe112109c68e69ceb6ee803">7a51871bc3e11210945e9e1d05013152</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-04 06:38:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>12M.x_1040502_eso_mo_0_eso_approval.x_1040502_eso_mo_0_account_history.parent</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-04 06:38:04</sys_created_on>
+            <sys_id>be51871bc3e11210945e9e1d05013154</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="History " display_value="History " name="x_1040502_eso_mo_0_eso_approval" sys_domain="global" view="9951c31bfbe112109c68e69ceb6ee803">7a51871bc3e11210945e9e1d05013152</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-04 06:38:04</sys_updated_on>
+            <sys_user/>
+            <type>list</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>collection_history_000</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-04 06:38:04</sys_created_on>
+            <sys_id>b651871bc3e11210945e9e1d05013156</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="History " display_value="History " name="x_1040502_eso_mo_0_eso_approval" sys_domain="global" view="9951c31bfbe112109c68e69ceb6ee803">7a51871bc3e11210945e9e1d05013152</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-04 06:38:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>9d355069c3e95610945e9e1d0501312c</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-04 06:38:04</sys_created_on>
+            <sys_id>b651871bc3e11210945e9e1d05013155</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="History " display_value="History " name="x_1040502_eso_mo_0_eso_approval" sys_domain="global" view="9951c31bfbe112109c68e69ceb6ee803">7a51871bc3e11210945e9e1d05013152</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-04 06:38:04</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>12M.x_1040502_eso_mo_0_eso_approval.x_1040502_eso_mo_0_collection_history.parent</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-04 06:38:04</sys_created_on>
+            <sys_id>be51871bc3e11210945e9e1d05013156</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="History " display_value="History " name="x_1040502_eso_mo_0_eso_approval" sys_domain="global" view="9951c31bfbe112109c68e69ceb6ee803">7a51871bc3e11210945e9e1d05013152</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-04 06:38:04</sys_updated_on>
+            <sys_user/>
+            <type>list</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>History </caption>
+            <header>false</header>
+            <name>x_1040502_eso_mo_0_eso_approval</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-04 06:38:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7a51871bc3e11210945e9e1d05013152</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1040502_eso_mo_0_eso_approval</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="eSO Mockup" source="x_1040502_eso_mo_0">2a930f88c3211210945e9e1d05013139</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="eSO Mockup">2a930f88c3211210945e9e1d05013139</sys_scope>
+            <sys_update_name>sys_ui_section_7a51871bc3e11210945e9e1d05013152</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-04 06:38:04</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace eSO 0" name="workspace-eso-0">9951c31bfbe112109c68e69ceb6ee803</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

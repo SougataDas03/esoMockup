@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_question">
+    <sys_decision_question action="DELETE">
+        <active>true</active>
+        <answer>017c3fd1c3695610945e9e1d050131d8</answer>
+        <condition table="var__m_sys_decision_input_0ed8af19c3e55610945e9e1d050131a7">u_department_code=AG1^EQ<item endquery="false" field="u_department_code" goto="false" newquery="false" operator="=" or="false" value="AG1"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <decision_table display_value="eSO Approval Decision Table">0ed8af19c3e55610945e9e1d050131a7</decision_table>
+        <default_answer>false</default_answer>
+        <input_table>var__m_sys_decision_input_0ed8af19c3e55610945e9e1d050131a7</input_table>
+        <label>eSO Approval Decision Table_200</label>
+        <marked_for_deletion>true</marked_for_deletion>
+        <order>200</order>
+        <sys_class_name>sys_decision_question</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-29 05:37:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>530afb11c3695610945e9e1d05013179</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>eSO Approval Decision Table_200</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="eSO Mockup" source="x_1040502_eso_mo_0">2a930f88c3211210945e9e1d05013139</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="eSO Mockup">2a930f88c3211210945e9e1d05013139</sys_scope>
+        <sys_update_name>sys_decision_question_530afb11c3695610945e9e1d05013179</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-23 06:46:19</sys_updated_on>
+    </sys_decision_question>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="eSO Mockup">2a930f88c3211210945e9e1d05013139</application>
+        <file_path/>
+        <instance_id>cca3323adb1a71542f082a5913961937</instance_id>
+        <instance_name>dev208145</instance_name>
+        <name>sys_decision_question_530afb11c3695610945e9e1d05013179</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_question"><sys_decision_question action="INSERT_OR_UPDATE"><active>true</active><answer>017c3fd1c3695610945e9e1d050131d8</answer><condition table="var__m_sys_decision_input_0ed8af19c3e55610945e9e1d050131a7">u_department_code=AG1^EQ<item endquery="false" field="u_department_code" goto="false" newquery="false" operator="=" or="false" value="AG1"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><decision_table display_value="eSO Approval Decision Table">0ed8af19c3e55610945e9e1d050131a7</decision_table><default_answer>false</default_answer><input_table>var__m_sys_decision_input_0ed8af19c3e55610945e9e1d050131a7</input_table><label>eSO Approval Decision Table_200</label><marked_for_deletion>true</marked_for_deletion><order>200</order><sys_class_name>sys_decision_question</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-29 05:37:55</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>530afb11c3695610945e9e1d05013179</sys_id><sys_mod_count>2</sys_mod_count><sys_name>eSO Approval Decision Table_200</sys_name><sys_overrides/><sys_package display_value="eSO Mockup" source="x_1040502_eso_mo_0">2a930f88c3211210945e9e1d05013139</sys_package><sys_policy/><sys_scope display_value="eSO Mockup">2a930f88c3211210945e9e1d05013139</sys_scope><sys_update_name>sys_decision_question_530afb11c3695610945e9e1d05013179</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-23 06:46:19</sys_updated_on></sys_decision_question></record_update>]]></payload>
+        <payload_hash>-1505131643</payload_hash>
+        <record_name>eSO Approval Decision Table_200</record_name>
+        <reverted_from/>
+        <source>4bf440c5c3261210945e9e1d05013101</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-23 06:46:19</sys_created_on>
+        <sys_id>6d29dbc3c36ada10945e9e1d0501310f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>193f2443f830000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-23 06:46:19</sys_updated_on>
+        <type>Decision</type>
+        <update_guid>e129dbc32f6ada10bb4554f6b137be0f</update_guid>
+        <update_guid_history>e129dbc32f6ada10bb4554f6b137be0f:-1505131643,10c4c041b5661210839acebc2279c62c:0,17a3ccc98a261210e3baae7658373d7e:-1233430803,0d7c7fd16c6956103c1d0e9860ee5e45:450897788,9f0afb115d6956107f339ab2b3864a7c:894488666</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-23 06:46:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_decision_question">sys_decision_question</sys_db_object>
+        <sys_id>76b357e88b4240649fee5779d06880c1</sys_id>
+        <sys_metadata>530afb11c3695610945e9e1d05013179</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>eSO Approval Decision Table_200</sys_name>
+        <sys_package display_value="eSO Mockup" source="x_1040502_eso_mo_0">2a930f88c3211210945e9e1d05013139</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="eSO Mockup">2a930f88c3211210945e9e1d05013139</sys_scope>
+        <sys_scope_delete display_value="">6320d1d0585d49868d4040a883e3a879</sys_scope_delete>
+        <sys_update_name>sys_decision_question_530afb11c3695610945e9e1d05013179</sys_update_name>
+        <sys_update_version display_value="sys_decision_question_530afb11c3695610945e9e1d05013179">6d29dbc3c36ada10945e9e1d0501310f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-23 06:46:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

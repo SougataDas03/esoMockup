@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_source">
+    <sys_search_source action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_1040502_eso_mo_0_collection_history">active=true<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+        </condition>
+        <group/>
+        <name>eSO Mockup - x_1040502_eso_mo_0_collection_history</name>
+        <roles/>
+        <source_table>x_1040502_eso_mo_0_collection_history</source_table>
+        <sys_class_name>sys_search_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-29 07:57:44</sys_created_on>
+        <sys_id>970a9cedc3e95610945e9e1d05013138</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>eSO Mockup - x_1040502_eso_mo_0_collection_history</sys_name>
+        <sys_package display_value="eSO Mockup" source="x_1040502_eso_mo_0">2a930f88c3211210945e9e1d05013139</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="eSO Mockup">2a930f88c3211210945e9e1d05013139</sys_scope>
+        <sys_update_name>sys_search_source_970a9cedc3e95610945e9e1d05013138</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-29 07:57:44</sys_updated_on>
+    </sys_search_source>
+    <sys_translated_text action="delete_multiple" query="documentkey=970a9cedc3e95610945e9e1d05013138"/>
+</record_update>

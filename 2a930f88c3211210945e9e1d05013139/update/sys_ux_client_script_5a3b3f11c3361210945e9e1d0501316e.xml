@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="eSO Record Page">5b0347dbc3e11210945e9e1d0501316f</macroponent>
+        <name>Approve client script </name>
+        <preset/>
+        <required_translations>[]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({ api, helpers }) {
+    console.log("Hi");
+  const recordId = api.context.props.sysId; // Get the current record ID from page state
+
+   console.log("line 10"+recordId);
+    /*if (!recordId) {
+        helpers.showMessage('No record selected!', 'error'); // Display an error notification
+        return;
+    }
+
+    // Call the server-side API to process the approval
+    api.http.post('/api/now/v1/script_include/ApprovalProcessor', {
+        recordId: recordId, // Pass the sys_id of the record
+        action: 'Approve', // Specify the action
+    }).then((response) => {
+        const result = response.data.result;
+
+        if (result.success) {
+            helpers.showMessage(result.message, 'success'); // Show success notification
+            api.state.refresh(); // Refresh the page
+        } else {
+            helpers.showMessage(result.message, 'error'); // Show error notification
+        }
+    }).catch((error) => {
+        helpers.showMessage('An error occurred: ' + error.message, 'error');
+    });*/
+}
+]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-30 09:36:31</sys_created_on>
+        <sys_id>5a3b3f11c3361210945e9e1d0501316e</sys_id>
+        <sys_mod_count>23</sys_mod_count>
+        <sys_name>Approve client script </sys_name>
+        <sys_package display_value="eSO Mockup" source="x_1040502_eso_mo_0">2a930f88c3211210945e9e1d05013139</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="eSO Mockup">2a930f88c3211210945e9e1d05013139</sys_scope>
+        <sys_update_name>sys_ux_client_script_5a3b3f11c3361210945e9e1d0501316e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-31 06:04:01</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

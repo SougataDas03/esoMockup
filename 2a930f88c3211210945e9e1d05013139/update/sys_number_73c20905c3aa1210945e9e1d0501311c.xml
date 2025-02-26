@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_1040502_eso_mo_0_approval_routing_previews">x_1040502_eso_mo_0_approval_routing_previews</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>APPP</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-16 14:41:37</sys_created_on>
+        <sys_id>73c20905c3aa1210945e9e1d0501311c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>APPP</sys_name>
+        <sys_package display_value="eSO Mockup" source="x_1040502_eso_mo_0">2a930f88c3211210945e9e1d05013139</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="eSO Mockup">2a930f88c3211210945e9e1d05013139</sys_scope>
+        <sys_update_name>sys_number_73c20905c3aa1210945e9e1d0501311c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-16 14:41:37</sys_updated_on>
+    </sys_number>
+</record_update>

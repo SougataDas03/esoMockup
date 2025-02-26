@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_multi_result">
+    <sys_decision_multi_result action="INSERT_OR_UPDATE">
+        <decision_table display_value="ESO Approval Decision">8d70502fc3625e10945e9e1d050131cb</decision_table>
+        <label>Approver 4: PIDSAP HR (Local) Approver, Approver 1: Planning Director, Approver 3: Planning Director, Approver 2: Planning General Manager</label>
+        <result_elements/>
+        <sys_class_name>sys_decision_multi_result</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-24 06:25:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>590e106fc3a25e10945e9e1d05013170</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Approver 4: PIDSAP HR (Local) Approver, Approver 1: Planning Director, Approver 3: Planning Director, Approver 2: Planning General Manager</sys_name>
+        <sys_package display_value="eSO Mockup" source="x_1040502_eso_mo_0">2a930f88c3211210945e9e1d05013139</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="eSO Mockup">2a930f88c3211210945e9e1d05013139</sys_scope>
+        <sys_update_name>sys_decision_multi_result_590e106fc3a25e10945e9e1d05013170</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-24 06:25:42</sys_updated_on>
+    </sys_decision_multi_result>
+    <sys_variable_value action="delete_multiple" query="document_key=590e106fc3a25e10945e9e1d05013170"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_decision_multi_result</document>
+        <document_key>590e106fc3a25e10945e9e1d05013170</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-24 06:25:42</sys_created_on>
+        <sys_id>110e106fc3a25e10945e9e1d05013171</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-24 06:25:42</sys_updated_on>
+        <value>76bdfc46c364d210945e9e1d05013136</value>
+        <variable display_value="Approver 1">8ac19c6fc3625e10945e9e1d05013154</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_decision_multi_result</document>
+        <document_key>590e106fc3a25e10945e9e1d05013170</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-24 06:25:42</sys_created_on>
+        <sys_id>5d0e106fc3a25e10945e9e1d05013170</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-24 06:25:42</sys_updated_on>
+        <value>671289cac364d210945e9e1d05013143</value>
+        <variable display_value="Approver 4">56c19c6fc3625e10945e9e1d050131af</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_decision_multi_result</document>
+        <document_key>590e106fc3a25e10945e9e1d05013170</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-24 06:25:42</sys_created_on>
+        <sys_id>950e106fc3a25e10945e9e1d05013171</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-24 06:25:42</sys_updated_on>
+        <value>0e4bf006c364d210945e9e1d050131db</value>
+        <variable display_value="Approver 2">c2c19c6fc3625e10945e9e1d05013167</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_decision_multi_result</document>
+        <document_key>590e106fc3a25e10945e9e1d05013170</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-24 06:25:42</sys_created_on>
+        <sys_id>d10e106fc3a25e10945e9e1d05013171</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-24 06:25:42</sys_updated_on>
+        <value>76bdfc46c364d210945e9e1d05013136</value>
+        <variable display_value="Approver 3">4ec19c6fc3625e10945e9e1d0501319d</variable>
+    </sys_variable_value>
+</record_update>

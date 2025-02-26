@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_transform">
+    <sys_ux_data_broker_transform action="INSERT_OR_UPDATE">
+        <acl_failure_result/>
+        <api_name>x_1040502_eso_mo_0.RFIDetailsTransform</api_name>
+        <batch_exclude>false</batch_exclude>
+        <description/>
+        <mutates_server_data>false</mutates_server_data>
+        <name>RFIDetailsTransform</name>
+        <output_schema/>
+        <private>false</private>
+        <props>[&#13;
+    {&#13;
+        "name": "sys_id",&#13;
+        "label": "Record Sys ID",&#13;
+        "description": "The sys_id of the record",&#13;
+        "fieldType": "string",&#13;
+        "mandatory": true,&#13;
+        "defaultValue": ""&#13;
+    }&#13;
+]</props>
+        <required_translations>[ {
+  "message" : "Record Sys ID",
+  "comment" : ""
+}, {
+  "message" : "The sys_id of the record",
+  "comment" : ""
+} ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <script><![CDATA[function transfrom(input){
+
+	var sysId = input.sys_id
+	
+	if(sysId == "" || sysId == null) return "Invalid Sys ID"
+
+	var rfidetails = {
+		rfiRecipient : [{
+			id : "applicant",
+			label : "Applicant"
+		}],
+		previousApprovers : [],
+	}
+
+
+	var rfiHandler = new x_1040502_eso_mo_0.RFIHandler();
+	var previousApprovers =  JSON.parse(rfiHandler.getPreviousApprovers(input.sys_id));
+	gs.info(previousApprovers.length)
+	// console.log(previousApprovers)
+	if(previousApprovers.length > 0){
+		rfidetails.rfiRecipient.push({
+			id : "previous_approver",
+			label : "Previous Approver"
+		})
+
+		rfidetails.previousApprovers = previousApprovers
+	}
+
+	return rfidetails;
+}]]></script>
+        <sys_class_name>sys_ux_data_broker_transform</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-24 07:42:24</sys_created_on>
+        <sys_id>57f10867c3371210945e9e1d0501317b</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>RFIDetailsTransform</sys_name>
+        <sys_package display_value="eSO Mockup" source="x_1040502_eso_mo_0">2a930f88c3211210945e9e1d05013139</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="eSO Mockup">2a930f88c3211210945e9e1d05013139</sys_scope>
+        <sys_update_name>sys_ux_data_broker_transform_57f10867c3371210945e9e1d0501317b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-25 04:31:59</sys_updated_on>
+    </sys_ux_data_broker_transform>
+    <sys_translated_text action="delete_multiple" query="documentkey=57f10867c3371210945e9e1d0501317b"/>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>57f10867c3371210945e9e1d0501317b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-24 07:42:23</sys_created_on>
+        <sys_id>c5228867c3371210945e9e1d050131b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-24 07:42:23</sys_updated_on>
+        <table>sys_ux_data_broker_transform</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

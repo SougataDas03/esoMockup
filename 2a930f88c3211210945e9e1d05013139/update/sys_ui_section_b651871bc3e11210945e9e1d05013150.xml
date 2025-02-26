@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="SO Line Items" section_id="b651871bc3e11210945e9e1d05013150" sys_domain="global" table="x_1040502_eso_mo_0_eso_approval" version="3" view="workspace-eso-0">
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>SO Line Items</caption>
+            <header>false</header>
+            <name>x_1040502_eso_mo_0_eso_approval</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-04 06:38:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b651871bc3e11210945e9e1d05013150</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1040502_eso_mo_0_eso_approval</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="eSO Mockup" source="x_1040502_eso_mo_0">2a930f88c3211210945e9e1d05013139</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="eSO Mockup">2a930f88c3211210945e9e1d05013139</sys_scope>
+            <sys_update_name>sys_ui_section_b651871bc3e11210945e9e1d05013150</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-04 06:38:04</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace eSO 0" name="workspace-eso-0">9951c31bfbe112109c68e69ceb6ee803</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

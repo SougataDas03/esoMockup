@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1040502_eso_mo_0.updateApprovalHistroyRecordsfromUI</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>updateApprovalHistroyRecordsfromUI</name>
+        <script><![CDATA[var updateApprovalHistroyRecordsfromUI = Class.create();
+updateApprovalHistroyRecordsfromUI.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+
+    updateApprovalHistory: function(parent,userid,comment) {
+        var parameter = this.getParameter('sysparm_inc_parent') || parent;
+        var comments = this.getParameter('sysparm_inc_comments') || comment;
+        var approvalRecord = new GlideRecord('sysapproval_approver');
+        approvalRecord.addQuery('document_id', parameter);
+        approvalRecord.query();
+        while (approvalRecord.next()) {
+            approvalRecord.setValue('u_comment', comments);
+            approvalRecord.setValue('state', 'approved');
+            approvalRecord.update();
+        }
+    },
+    updateRejectionHistory: function(parent,userid,comment) {
+        var parameter = this.getParameter('sysparm_inc_parent') || parent;
+        var comments = this.getParameter('sysparm_inc_comments') || comment;
+        var approvalRecord = new GlideRecord('sysapproval_approver');
+        approvalRecord.addQuery('document_id', parameter);
+        approvalRecord.query();
+        while (approvalRecord.next()) {
+            approvalRecord.setValue('u_comment', comments);
+            approvalRecord.setValue('state', 'rejected');
+            approvalRecord.update();
+        }
+    },
+    type: 'updateApprovalHistroyRecordsfromUI'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-26 05:19:06</sys_created_on>
+        <sys_id>25843140c384e210945e9e1d0501311c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>updateApprovalHistroyRecordsfromUI</sys_name>
+        <sys_package display_value="eSO Mockup" source="x_1040502_eso_mo_0">2a930f88c3211210945e9e1d05013139</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="eSO Mockup">2a930f88c3211210945e9e1d05013139</sys_scope>
+        <sys_update_name>sys_script_include_25843140c384e210945e9e1d0501311c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-26 05:27:37</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>25843140c384e210945e9e1d0501311c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-26 05:27:36</sys_created_on>
+        <sys_id>5e763dc0c384e210945e9e1d050131eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-26 05:27:36</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_1040502_eso_mo_0.eso_Create_role_acl" name="x_1040502_eso_mo_0.eso_Create_role_acl">eb798a10c3c3d210945e9e1d050131c5</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-08 08:26:56</sys_created_on>
+        <sys_id>27994a10c3c3d210945e9e1d050131a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>eb798a10c3c3d210945e9e1d050131c5</sys_name>
+        <sys_package display_value="eSO Mockup" source="x_1040502_eso_mo_0">2a930f88c3211210945e9e1d05013139</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="eSO Mockup">2a930f88c3211210945e9e1d05013139</sys_scope>
+        <sys_update_name>sys_embedded_help_role_27994a10c3c3d210945e9e1d050131a1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-08 08:26:56</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

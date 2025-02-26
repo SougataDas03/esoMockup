@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="eSO Record Page">5b0347dbc3e11210945e9e1d0501316f</macroponent>
+        <name>New client script 1</name>
+        <preset/>
+        <required_translations>[]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+console.log("API STATE")
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-02 11:08:45</sys_created_on>
+        <sys_id>36e400e0c3961210945e9e1d050131bd</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>New client script 1</sys_name>
+        <sys_package display_value="eSO Mockup" source="x_1040502_eso_mo_0">2a930f88c3211210945e9e1d05013139</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="eSO Mockup">2a930f88c3211210945e9e1d05013139</sys_scope>
+        <sys_update_name>sys_ux_client_script_36e400e0c3961210945e9e1d050131bd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-24 11:12:56</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="eSO Mockup">2a930f88c3211210945e9e1d05013139</application>
+        <file_path/>
+        <instance_id>cca3323adb1a71542f082a5913961937</instance_id>
+        <instance_name>dev208145</instance_name>
+        <name>sys_ux_client_script_36e400e0c3961210945e9e1d050131bd</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;controller_preset/&gt;&lt;includes/&gt;&lt;macroponent display_value="eSO Record Page"&gt;5b0347dbc3e11210945e9e1d0501316f&lt;/macroponent&gt;&lt;name&gt;New client script 1&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+console.log("API STATE")
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-12-02 11:08:45&lt;/sys_created_on&gt;&lt;sys_id&gt;36e400e0c3961210945e9e1d050131bd&lt;/sys_id&gt;&lt;sys_mod_count&gt;21&lt;/sys_mod_count&gt;&lt;sys_name&gt;New client script 1&lt;/sys_name&gt;&lt;sys_package display_value="eSO Mockup" source="x_1040502_eso_mo_0"&gt;2a930f88c3211210945e9e1d05013139&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="eSO Mockup"&gt;2a930f88c3211210945e9e1d05013139&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_36e400e0c3961210945e9e1d050131bd&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-02-24 11:12:56&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;default&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>711728831</payload_hash>
+        <record_name>New client script 1</record_name>
+        <reverted_from/>
+        <source>473f8c5bc3e3d250945e9e1d05013102</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-24 11:12:56</sys_created_on>
+        <sys_id>9552fca7c33b1210945e9e1d050131da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19537a8fd8e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-24 11:12:56</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>1d52fca7f93b121022192f6b333cadd9</update_guid>
+        <update_guid_history>1d52fca7f93b121022192f6b333cadd9:711728831,6eb0f427663b1210dc89f9431655fe22:-1427643805,00d4c841386612101e61baf236a42daa:0,18c3c40d9f26121034532d339fa1d29b:-1828351725,e27150e42dd612101c517eacb4a28315:-2010612443,2a1098e0c7d61210adb6491e9a345f9c:1560753119,71bf0c247ed61210cd8d977140617bcb:-1127419780,01ae88a023d61210c35ebfb1556d2482:-454374853,aa2e0ca0f2d61210e1d98a32fa8b4de0:1915608574,5aedc4a0a2d61210c9eeb71252d61788:2020400257,9b4c08ec63961210098c1c69e105f13b:1893398085,3deb4c6ce79612102475513edecff654:150500452,0ddb84ecaa9612102628397f297c973f:1838213054</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-24 11:16:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>2f238f3f30aa4ff08eca3712f6ff83c1</sys_id>
+        <sys_metadata>36e400e0c3961210945e9e1d050131bd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New client script 1</sys_name>
+        <sys_package display_value="eSO Mockup" source="x_1040502_eso_mo_0">2a930f88c3211210945e9e1d05013139</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="eSO Mockup">2a930f88c3211210945e9e1d05013139</sys_scope>
+        <sys_scope_delete display_value="">6320d1d0585d49868d4040a883e3a879</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_36e400e0c3961210945e9e1d050131bd</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_36e400e0c3961210945e9e1d050131bd">9552fca7c33b1210945e9e1d050131da</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-24 11:16:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_scriptlet">
+    <sys_ux_data_broker_scriptlet action="DELETE">
+        <api_name>x_1040502_eso_mo_0.RFIDetails</api_name>
+        <batch_exclude>false</batch_exclude>
+        <description/>
+        <mutates_server_data>false</mutates_server_data>
+        <name>RFIDetails</name>
+        <output_schema/>
+        <private>false</private>
+        <props>[&#13;
+    {&#13;
+        "name": "sys_id",&#13;
+        "label": "Record Sys ID",&#13;
+        "description": "The sys_id of the record",&#13;
+        "fieldType": "string",&#13;
+        "mandatory": true,&#13;
+        "defaultValue": ""&#13;
+    }&#13;
+]</props>
+        <required_translations>[ {
+  "message" : "Record Sys ID",
+  "comment" : ""
+}, {
+  "message" : "The sys_id of the record",
+  "comment" : ""
+} ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <script><![CDATA[function transfrom(input){
+
+	var rfidetails = {
+		rfiRecipient : [{
+			id : "applicant",
+			label : "Applicant"
+		}]
+	}
+
+	var ga = new GlideRecord('incident');
+	
+
+
+
+	return rfidetails;
+}]]></script>
+        <sys_class_name>sys_ux_data_broker_scriptlet</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-23 16:03:18</sys_created_on>
+        <sys_id>6a1b64dfc377da10945e9e1d050131d9</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>RFIDetails</sys_name>
+        <sys_package display_value="eSO Mockup" source="x_1040502_eso_mo_0">2a930f88c3211210945e9e1d05013139</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="eSO Mockup">2a930f88c3211210945e9e1d05013139</sys_scope>
+        <sys_update_name>sys_ux_data_broker_scriptlet_6a1b64dfc377da10945e9e1d050131d9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-24 07:31:24</sys_updated_on>
+    </sys_ux_data_broker_scriptlet>
+    <sys_translated_text action="DELETE" query="documentkey=6a1b64dfc377da10945e9e1d050131d9"/>
+    <sys_es_latest_script action="DELETE">
+        <id>6a1b64dfc377da10945e9e1d050131d9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-23 16:03:17</sys_created_on>
+        <sys_id>fc3be89fc377da10945e9e1d05013182</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-23 16:03:17</sys_updated_on>
+        <table>sys_ux_data_broker_scriptlet</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="eSO Mockup">2a930f88c3211210945e9e1d05013139</application>
+        <file_path/>
+        <instance_id>cca3323adb1a71542f082a5913961937</instance_id>
+        <instance_name>dev208145</instance_name>
+        <name>sys_ux_data_broker_scriptlet_6a1b64dfc377da10945e9e1d050131d9</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_data_broker_scriptlet"&gt;&lt;sys_ux_data_broker_scriptlet action="INSERT_OR_UPDATE"&gt;&lt;api_name&gt;x_1040502_eso_mo_0.RFIDetails&lt;/api_name&gt;&lt;batch_exclude&gt;false&lt;/batch_exclude&gt;&lt;description/&gt;&lt;mutates_server_data&gt;false&lt;/mutates_server_data&gt;&lt;name&gt;RFIDetails&lt;/name&gt;&lt;output_schema/&gt;&lt;private&gt;false&lt;/private&gt;&lt;props&gt;[&amp;#13;
+    {&amp;#13;
+        "name": "sys_id",&amp;#13;
+        "label": "Record Sys ID",&amp;#13;
+        "description": "The sys_id of the record",&amp;#13;
+        "fieldType": "string",&amp;#13;
+        "mandatory": true,&amp;#13;
+        "defaultValue": ""&amp;#13;
+    }&amp;#13;
+]&lt;/props&gt;&lt;required_translations&gt;[ {
+  "message" : "Record Sys ID",
+  "comment" : ""
+}, {
+  "message" : "The sys_id of the record",
+  "comment" : ""
+} ]&lt;/required_translations&gt;&lt;schema_version&gt;1.0.0&lt;/schema_version&gt;&lt;script&gt;&lt;![CDATA[function transfrom(input){
+
+	var rfidetails = {
+		rfiRecipient : [{
+			id : "applicant",
+			label : "Applicant"
+		}]
+	}
+
+	var ga = new GlideRecord('incident');
+	
+
+
+
+	return rfidetails;
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_ux_data_broker_scriptlet&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-02-23 16:03:18&lt;/sys_created_on&gt;&lt;sys_id&gt;6a1b64dfc377da10945e9e1d050131d9&lt;/sys_id&gt;&lt;sys_mod_count&gt;21&lt;/sys_mod_count&gt;&lt;sys_name&gt;RFIDetails&lt;/sys_name&gt;&lt;sys_package display_value="eSO Mockup" source="x_1040502_eso_mo_0"&gt;2a930f88c3211210945e9e1d05013139&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="eSO Mockup"&gt;2a930f88c3211210945e9e1d05013139&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_data_broker_scriptlet_6a1b64dfc377da10945e9e1d050131d9&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-02-24 07:31:24&lt;/sys_updated_on&gt;&lt;/sys_ux_data_broker_scriptlet&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=6a1b64dfc377da10945e9e1d050131d9"/&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;6a1b64dfc377da10945e9e1d050131d9&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-02-23 16:03:17&lt;/sys_created_on&gt;&lt;sys_id&gt;fc3be89fc377da10945e9e1d05013182&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-02-23 16:03:17&lt;/sys_updated_on&gt;&lt;table&gt;sys_ux_data_broker_scriptlet&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-274513243</payload_hash>
+        <record_name>RFIDetails</record_name>
+        <reverted_from/>
+        <source>473f8c5bc3e3d250945e9e1d05013102</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-24 07:31:24</sys_created_on>
+        <sys_id>98af7b93c3371210945e9e1d050131fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19536de2b890000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-24 07:31:24</sys_updated_on>
+        <type>Data Broker Scriptlet</type>
+        <update_guid>10af7b930b3712105800246dad55fefe</update_guid>
+        <update_guid_history>10af7b930b3712105800246dad55fefe:-274513243,ca0e33df74f31210e5434a5ca5028ab2:-1252095716,30dd7713dd371210044c3cc99c68ba4e:1645628301,201db3df2df31210813d2d4a39fbd05e:1502340489,b6ac7b9ffcf312105f268e3503ed9e5c:1952358898,258cb75f4df31210dff52bbb9e3b82fc:-122384928,c32cff1f12f312105f6265f0598b0dd6:1337069181,00ab775f85f312107562b36f7d7095cc:-1087372214,1bbab7131af31210fd6b6b4fec9804dd:-1622219344,64e0bf9f76b31210f615daf4738d1de7:1432576916,076d23db40b3121046d1bb2c1f4f871b:1673363329,27fba31b05b31210d97727980fff2c8f:321292088,dad67c9ff0b7da10f9ea9661326b1b42:1722219518,52c5349f3eb7da1014d021111473a1cf:658004945,be65b49f88b7da10ef4438bbbcff7016:-2008376839,a1e4b05fbeb7da10db519621828d9fac:1863879632,48947c1f97b7da108479a10b73c10a5d:566186171,c2c370db3cb7da10c2afa7d4834e12be:403317840,6c22b8d747b7da106a27e89c074d72e8:716999317,5c10309779b7da10d7090e5f9bd34820:1842055316,de9b649fe677da1085a31d0b39c4050f:-2138178342,853b64df2d77da103d268a1666112c71:2103798806</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-24 07:38:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_data_broker_scriptlet">sys_ux_data_broker_scriptlet</sys_db_object>
+        <sys_id>5f8462cb5c074c6cbe45b4f2ed5602a4</sys_id>
+        <sys_metadata>6a1b64dfc377da10945e9e1d050131d9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>RFIDetails</sys_name>
+        <sys_package display_value="eSO Mockup" source="x_1040502_eso_mo_0">2a930f88c3211210945e9e1d05013139</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="eSO Mockup">2a930f88c3211210945e9e1d05013139</sys_scope>
+        <sys_scope_delete display_value="">6320d1d0585d49868d4040a883e3a879</sys_scope_delete>
+        <sys_update_name>sys_ux_data_broker_scriptlet_6a1b64dfc377da10945e9e1d050131d9</sys_update_name>
+        <sys_update_version display_value="sys_ux_data_broker_scriptlet_6a1b64dfc377da10945e9e1d050131d9">98af7b93c3371210945e9e1d050131fe</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-24 07:38:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

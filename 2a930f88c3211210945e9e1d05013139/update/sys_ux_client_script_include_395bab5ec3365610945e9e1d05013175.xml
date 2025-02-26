@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script_include">
+    <sys_ux_client_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <api_name>x_1040502_eso_mo_0.Approve</api_name>
+        <includes/>
+        <name>Approve</name>
+        <required_translations>[]</required_translations>
+        <script><![CDATA[function include({imports}) { }]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-02 10:26:16</sys_created_on>
+        <sys_id>395bab5ec3365610945e9e1d05013175</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Approve</sys_name>
+        <sys_package display_value="eSO Mockup" source="x_1040502_eso_mo_0">2a930f88c3211210945e9e1d05013139</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="eSO Mockup">2a930f88c3211210945e9e1d05013139</sys_scope>
+        <sys_update_name>sys_ux_client_script_include_395bab5ec3365610945e9e1d05013175</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-02 10:26:16</sys_updated_on>
+    </sys_ux_client_script_include>
+</record_update>

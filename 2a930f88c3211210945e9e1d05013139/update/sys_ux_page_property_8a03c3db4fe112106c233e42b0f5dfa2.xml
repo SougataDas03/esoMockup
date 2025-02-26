@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>sys_ux_applicability sys_id for Workspace audience</description>
+        <name>wbApplicabilityConfigId</name>
+        <page display_value="eSO  WorkSpace">8603c3db22e1121050d6478002949db2</page>
+        <required_translations/>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-04 06:45:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>8a03c3db4fe112106c233e42b0f5dfa2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>wbApplicabilityConfigId</sys_name>
+        <sys_package display_value="eSO Mockup" source="x_1040502_eso_mo_0">2a930f88c3211210945e9e1d05013139</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="eSO Mockup">2a930f88c3211210945e9e1d05013139</sys_scope>
+        <sys_update_name>sys_ux_page_property_8a03c3db4fe112106c233e42b0f5dfa2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-04 06:45:26</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_1040502_eso_mo_0.8603c3db22e1121050d6478002949db2.root.global.wbApplicabilityConfigId</unique_name>
+        <value>360307dbc3e11210945e9e1d0501319c</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=8a03c3db4fe112106c233e42b0f5dfa2"/>
+</record_update>

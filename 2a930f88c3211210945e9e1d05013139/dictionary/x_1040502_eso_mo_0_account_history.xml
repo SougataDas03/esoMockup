@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="17f44421c3a95610945e9e1d0501319a" extends="task" label="Account History" max_length="40" name="x_1040502_eso_mo_0_account_history" text_index="true" type="collection">
+        <element attributes="omit_sys_original=true" label="Balance B/F 1st to 15th" max_length="20" name="balaance_b_f_1st_to_15th" read_only="true" type="currency"/>
+        <element label="Balance 45 Days" max_length="40" name="balance_45_days" read_only="true" type="currency"/>
+        <element attributes="omit_sys_original=true" label="Balance B/F 16th to 31st" max_length="20" name="balance_b_f_16th_to_31st" read_only="true" type="currency"/>
+        <element attributes="omit_sys_original=true" label="Collection 16th to 31st" max_length="20" name="collection_16th_to_31st" read_only="true" type="currency"/>
+        <element attributes="omit_sys_original=true" label="Collection 1st to 15th" max_length="20" name="collection_1st_to_15th" read_only="true" type="currency"/>
+        <element attributes="omit_sys_original=true" label="Collection CN/PI" max_length="20" name="collection_cn_pi" read_only="true" type="currency"/>
+        <element attributes="omit_sys_original=true" label="Curr.Sales" max_length="20" name="curr_sales" type="currency"/>
+        <element attributes="omit_sys_original=true" label="Exceed Credit Limit" max_length="20" name="exceed_credit_limit" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" label="Month" max_length="40" name="month" read_only="true" type="string"/>
+        <element attributes="omit_sys_original=true" label="Sales Order Hold" max_length="20" name="sales_order_hold" type="currency"/>
+        <element attributes="omit_sys_original=true" label="Total O/S C/F" max_length="20" name="total_o_s_c_f" type="currency"/>
+        <element attributes="omit_sys_original=true" label="Uncollected" max_length="20" name="uncollected" type="currency"/>
+    </element>
+</database>

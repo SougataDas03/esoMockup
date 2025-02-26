@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>workspace-eso--workspace-0</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-04 06:45:25</sys_created_on>
+        <sys_id>0603c3dbcfe11210db911d17861620a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Workspace eSO  WorkSpace 0</sys_name>
+        <sys_package display_value="eSO Mockup" source="x_1040502_eso_mo_0">2a930f88c3211210945e9e1d05013139</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="eSO Mockup">2a930f88c3211210945e9e1d05013139</sys_scope>
+        <sys_update_name>sys_ui_view_0603c3dbcfe11210db911d17861620a8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-04 06:45:25</sys_updated_on>
+        <title>Workspace eSO  WorkSpace 0</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

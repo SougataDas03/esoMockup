@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="SO Line Items" section_id="8fe68c45c3661210945e9e1d05013160" sys_domain="global" table="x_1040502_eso_mo_0_approval_history" version="3" view="workspace-eso-0">
+        <sys_ui_section action="DELETE">
+            <caption>SO Line Items</caption>
+            <header>false</header>
+            <name>x_1040502_eso_mo_0_approval_history</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-16 10:19:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8fe68c45c3661210945e9e1d05013160</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1040502_eso_mo_0_approval_history</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="eSO Mockup" source="x_1040502_eso_mo_0">2a930f88c3211210945e9e1d05013139</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="eSO Mockup">2a930f88c3211210945e9e1d05013139</sys_scope>
+            <sys_update_name>sys_ui_section_8fe68c45c3661210945e9e1d05013160</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-16 10:19:58</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace eSO 0" name="workspace-eso-0">9951c31bfbe112109c68e69ceb6ee803</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="eSO Mockup">2a930f88c3211210945e9e1d05013139</application>
+        <file_path/>
+        <instance_id>cca3323adb1a71542f082a5913961937</instance_id>
+        <instance_name>dev208145</instance_name>
+        <name>sys_ui_section_8fe68c45c3661210945e9e1d05013160</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="SO Line Items" section_id="8fe68c45c3661210945e9e1d05013160" sys_domain="global" table="x_1040502_eso_mo_0_approval_history" version="3" view="workspace-eso-0"><sys_ui_section action="INSERT_OR_UPDATE"><caption>SO Line Items</caption><header>false</header><name>x_1040502_eso_mo_0_approval_history</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-16 10:19:58</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>8fe68c45c3661210945e9e1d05013160</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1040502_eso_mo_0_approval_history</sys_name><sys_overrides/><sys_package display_value="eSO Mockup" source="x_1040502_eso_mo_0">2a930f88c3211210945e9e1d05013139</sys_package><sys_policy/><sys_scope display_value="eSO Mockup">2a930f88c3211210945e9e1d05013139</sys_scope><sys_update_name>sys_ui_section_8fe68c45c3661210945e9e1d05013160</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-16 10:19:58</sys_updated_on><sys_user/><title>false</title><view display_value="Workspace eSO 0" name="workspace-eso-0">9951c31bfbe112109c68e69ceb6ee803</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-27324206</payload_hash>
+        <record_name>Approval History</record_name>
+        <reverted_from/>
+        <source>4bf440c5c3261210945e9e1d05013101</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-16 10:19:58</sys_created_on>
+        <sys_id>83e68c45c3661210945e9e1d05013163</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>193cefb56800000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-16 10:19:58</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>0be68c457b6612101237c2aa36c93b62</update_guid>
+        <update_guid_history>0be68c457b6612101237c2aa36c93b62:-27324206</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-08 07:01:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>0d12788a0c974948912c5b0630686210</sys_id>
+        <sys_metadata>8fe68c45c3661210945e9e1d05013160</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SO Line Items</sys_name>
+        <sys_package display_value="eSO Mockup" source="x_1040502_eso_mo_0">2a930f88c3211210945e9e1d05013139</sys_package>
+        <sys_parent display_value="">7de64c45c3661210945e9e1d05013119</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="eSO Mockup">2a930f88c3211210945e9e1d05013139</sys_scope>
+        <sys_scope_delete display_value="">6320d1d0585d49868d4040a883e3a879</sys_scope_delete>
+        <sys_update_name>sys_ui_section_8fe68c45c3661210945e9e1d05013160</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_8fe68c45c3661210945e9e1d05013160">83e68c45c3661210945e9e1d05013163</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-08 07:01:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

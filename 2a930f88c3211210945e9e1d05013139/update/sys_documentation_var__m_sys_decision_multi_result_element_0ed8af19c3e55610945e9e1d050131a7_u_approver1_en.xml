@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_approver1" label="Approver1" language="en" table="var__m_sys_decision_multi_result_element_0ed8af19c3e55610945e9e1d050131a7">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_approver1</element>
+            <help/>
+            <hint/>
+            <label>Approver1</label>
+            <language>en</language>
+            <name>var__m_sys_decision_multi_result_element_0ed8af19c3e55610945e9e1d050131a7</name>
+            <plural>Approver1</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-29 05:48:22</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Approver1</sys_name>
+            <sys_package display_value="eSO Mockup" source="x_1040502_eso_mo_0">2a930f88c3211210945e9e1d05013139</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="eSO Mockup">2a930f88c3211210945e9e1d05013139</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_decision_multi_result_element_0ed8af19c3e55610945e9e1d050131a7_u_approver1_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-29 05:48:22</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

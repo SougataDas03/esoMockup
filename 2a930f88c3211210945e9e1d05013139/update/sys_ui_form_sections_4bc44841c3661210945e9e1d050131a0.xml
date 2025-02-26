@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="4bc44841c3661210945e9e1d050131a0" sys_domain="global" table="x_1040502_eso_mo_0_eso_approval" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-29 07:57:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e41adcedc3e95610945e9e1d050131e0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1040502_eso_mo_0_eso_approval" name="x_1040502_eso_mo_0_eso_approval" sys_domain="global" view="650ad8ed63e95610942e5bdd4d1252ef">4bc44841c3661210945e9e1d050131a0</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_1040502_eso_mo_0_eso_approval" sys_domain="global" view="650ad8ed63e95610942e5bdd4d1252ef">281adcedc3e95610945e9e1d050131de</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-29 07:57:48</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-29 07:57:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e81adcedc3e95610945e9e1d050131f7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1040502_eso_mo_0_eso_approval" name="x_1040502_eso_mo_0_eso_approval" sys_domain="global" view="650ad8ed63e95610942e5bdd4d1252ef">4bc44841c3661210945e9e1d050131a0</sys_ui_form>
+            <sys_ui_section caption="General Section" display_value="General Section" name="x_1040502_eso_mo_0_eso_approval" sys_domain="global" view="650ad8ed63e95610942e5bdd4d1252ef">681adcedc3e95610945e9e1d050131f6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-29 07:57:49</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-29 07:57:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e41adcedc3e95610945e9e1d050131fa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1040502_eso_mo_0_eso_approval" name="x_1040502_eso_mo_0_eso_approval" sys_domain="global" view="650ad8ed63e95610942e5bdd4d1252ef">4bc44841c3661210945e9e1d050131a0</sys_ui_form>
+            <sys_ui_section caption="Sales Order Information" display_value="Sales Order Information" name="x_1040502_eso_mo_0_eso_approval" sys_domain="global" view="650ad8ed63e95610942e5bdd4d1252ef">a41adcedc3e95610945e9e1d050131f9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-29 07:57:49</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-29 07:57:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e41a1021c32d5610945e9e1d05013136</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1040502_eso_mo_0_eso_approval" name="x_1040502_eso_mo_0_eso_approval" sys_domain="global" view="650ad8ed63e95610942e5bdd4d1252ef">4bc44841c3661210945e9e1d050131a0</sys_ui_form>
+            <sys_ui_section caption="Credit Information" display_value="Credit Information" name="x_1040502_eso_mo_0_eso_approval" sys_domain="global" view="650ad8ed63e95610942e5bdd4d1252ef">a41a1021c32d5610945e9e1d05013135</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-29 07:57:49</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-29 07:57:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e01a1021c32d5610945e9e1d0501313f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1040502_eso_mo_0_eso_approval" name="x_1040502_eso_mo_0_eso_approval" sys_domain="global" view="650ad8ed63e95610942e5bdd4d1252ef">4bc44841c3661210945e9e1d050131a0</sys_ui_form>
+            <sys_ui_section caption="SO Line Items" display_value="SO Line Items" name="x_1040502_eso_mo_0_eso_approval" sys_domain="global" view="650ad8ed63e95610942e5bdd4d1252ef">a01a1021c32d5610945e9e1d0501313e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-29 07:57:49</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-29 07:57:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a41a1021c32d5610945e9e1d0501314e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1040502_eso_mo_0_eso_approval" name="x_1040502_eso_mo_0_eso_approval" sys_domain="global" view="650ad8ed63e95610942e5bdd4d1252ef">4bc44841c3661210945e9e1d050131a0</sys_ui_form>
+            <sys_ui_section caption="History " display_value="History " name="x_1040502_eso_mo_0_eso_approval" sys_domain="global" view="650ad8ed63e95610942e5bdd4d1252ef">641a1021c32d5610945e9e1d0501314d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-29 07:57:49</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1040502_eso_mo_0_eso_approval</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-29 07:57:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4bc44841c3661210945e9e1d050131a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1040502_eso_mo_0_eso_approval</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="eSO Mockup" source="x_1040502_eso_mo_0">2a930f88c3211210945e9e1d05013139</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="eSO Mockup">2a930f88c3211210945e9e1d05013139</sys_scope>
+            <sys_update_name>sys_ui_form_sections_4bc44841c3661210945e9e1d050131a0</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-29 07:57:48</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace eSO Mockup 1" name="workspace-eso-mockup-1">650ad8ed63e95610942e5bdd4d1252ef</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

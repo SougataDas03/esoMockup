@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="c81e49c8c34b5210945e9e1d0501310d" label="Approval History" max_length="40" name="x_1097202_epos_approval_history" type="collection">
+        <element label="Assignment Date &amp; Time" max_length="255" name="x_1040502_eso_mo_0_assign_date_time" type="calendar_date_time"/>
+    </element>
+</database>

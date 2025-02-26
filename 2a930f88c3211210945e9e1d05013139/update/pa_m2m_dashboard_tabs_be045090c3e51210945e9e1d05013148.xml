@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_m2m_dashboard_tabs">
+    <pa_m2m_dashboard_tabs action="INSERT_OR_UPDATE">
+        <dashboard display_value="mockup">55f3dc50c3e51210945e9e1d05013110</dashboard>
+        <home>false</home>
+        <homepage/>
+        <order>1</order>
+        <sys_class_name>pa_m2m_dashboard_tabs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-25 10:19:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>be045090c3e51210945e9e1d05013148</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>55f3dc50c3e51210945e9e1d05013110</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="eSO Mockup" source="x_1040502_eso_mo_0">2a930f88c3211210945e9e1d05013139</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="eSO Mockup">2a930f88c3211210945e9e1d05013139</sys_scope>
+        <sys_update_name>pa_m2m_dashboard_tabs_be045090c3e51210945e9e1d05013148</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-25 10:19:04</sys_updated_on>
+        <tab display_value="New Tab 1">e2049c50c3e51210945e9e1d05013187</tab>
+    </pa_m2m_dashboard_tabs>
+</record_update>
