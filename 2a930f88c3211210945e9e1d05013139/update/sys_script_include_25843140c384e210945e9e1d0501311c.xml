@@ -9,11 +9,16 @@
         <mobile_callable>false</mobile_callable>
         <name>updateApprovalHistroyRecordsfromUI</name>
         <script><![CDATA[var updateApprovalHistroyRecordsfromUI = Class.create();
-updateApprovalHistroyRecordsfromUI.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+updateApprovalHistroyRecordsfromUI.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 
     updateApprovalHistory: function(parent,userid,comment) {
         var parameter = this.getParameter('sysparm_inc_parent') || parent;
         var comments = this.getParameter('sysparm_inc_comments') || comment;
+
+		gs.info(`Parent ${parameter} comment ${comments}`)
+
+
+
         var approvalRecord = new GlideRecord('sysapproval_approver');
         approvalRecord.addQuery('document_id', parameter);
         approvalRecord.query();
@@ -26,6 +31,8 @@ updateApprovalHistroyRecordsfromUI.prototype = Object.extendsObject(AbstractAjax
     updateRejectionHistory: function(parent,userid,comment) {
         var parameter = this.getParameter('sysparm_inc_parent') || parent;
         var comments = this.getParameter('sysparm_inc_comments') || comment;
+
+		gs.info(`From SI ${comments}`)
         var approvalRecord = new GlideRecord('sysapproval_approver');
         approvalRecord.addQuery('document_id', parameter);
         approvalRecord.query();
@@ -41,14 +48,14 @@ updateApprovalHistroyRecordsfromUI.prototype = Object.extendsObject(AbstractAjax
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-02-26 05:19:06</sys_created_on>
         <sys_id>25843140c384e210945e9e1d0501311c</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>updateApprovalHistroyRecordsfromUI</sys_name>
         <sys_package display_value="eSO Mockup" source="x_1040502_eso_mo_0">2a930f88c3211210945e9e1d05013139</sys_package>
         <sys_policy/>
         <sys_scope display_value="eSO Mockup">2a930f88c3211210945e9e1d05013139</sys_scope>
         <sys_update_name>sys_script_include_25843140c384e210945e9e1d0501311c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-26 05:27:37</sys_updated_on>
+        <sys_updated_on>2025-02-26 11:51:01</sys_updated_on>
     </sys_script_include>
     <sys_es_latest_script action="INSERT_OR_UPDATE">
         <id>25843140c384e210945e9e1d0501311c</id>
