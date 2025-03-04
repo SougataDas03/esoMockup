@@ -54,22 +54,23 @@
   "comment" : ""
 } ]</required_translations>
         <schema_version>1.0.0</schema_version>
-        <script><![CDATA[function transform(input){
-var rfiResponse = new x_1040502_eso_mo_0.RFIHandler();
-	rfiResponse.handleRFIResponse(input.parent,input.userid,input.comment);
+        <script><![CDATA[function transform(input) {
+    var rfiResponse = new x_1040502_eso_mo_0.RFIHandler();
+    gs.info(`From Transform parent ${input.parent}, userid ${input.userid}, comment ${input.comment}`);
+    rfiResponse.handleRFIResponse(input.parent, input.comment);
 }]]></script>
         <sys_class_name>sys_ux_data_broker_transform</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-02-26 08:45:45</sys_created_on>
         <sys_id>38b36640c388e210945e9e1d05013165</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>RFIResponse</sys_name>
         <sys_package display_value="eSO Mockup" source="x_1040502_eso_mo_0">2a930f88c3211210945e9e1d05013139</sys_package>
         <sys_policy/>
         <sys_scope display_value="eSO Mockup">2a930f88c3211210945e9e1d05013139</sys_scope>
         <sys_update_name>sys_ux_data_broker_transform_38b36640c388e210945e9e1d05013165</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-03 05:07:48</sys_updated_on>
+        <sys_updated_on>2025-03-03 15:41:50</sys_updated_on>
     </sys_ux_data_broker_transform>
     <sys_translated_text action="delete_multiple" query="documentkey=38b36640c388e210945e9e1d05013165"/>
     <sys_es_latest_script action="INSERT_OR_UPDATE">

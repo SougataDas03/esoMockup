@@ -108,5 +108,6 @@
         <element label="New Name-Value Pairs" max_length="4000" name="u_simple_name_values_4" type="simple_name_values"/>
         <element attributes="base_start=true" label="New Table Name" max_length="80" name="u_table_name_1" type="table_name"/>
         <element attributes="is_multi_text=true,preview_first=true,preview_selector=true" label="New Wiki" max_length="65536" name="u_wiki_text_2" type="wiki_text"/>
+        <element label="workflow context" max_length="40" name="workflow_context" type="string"/>
     </element>
 </database>
