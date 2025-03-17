@@ -76,7 +76,7 @@ RFIHandler.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
                 grApproval.query();
                 while (grApproval.next()) {
                     grApproval.state = 'not_required';
-					grApproval.update();
+                    grApproval.update();
                 }
                 var now_GR = new GlideRecord("sys_flow_context");
                 if (now_GR.get(flowSysId)) {
@@ -133,8 +133,17 @@ RFIHandler.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
                 return;
             }
             if (gr.get(incParent)) {
+				var getRFIlevel = new GlideRecord('x_1097202_epos_approval_history');
+				getRFIlevel.addQuery('parent',incParent);
+				getRFIlevel.addQuery('decision_taken','RFI');
+				getRFIlevel.orderByDesc('sys_created_on');
+				getRFIlevel.query(); 
+				while(getRFIlevel.next()){
+					gs.info('Rfi lvel:'+ getRFIlevel.level);
+				}
+
                 var afterRfi = gr.getValue('after_rfi');
-                var level = gr.getValue('assigned_to') == gr.getValue('applicant_name') ? '0' : this.getLevel(incParent, gr.getValue('assignment_group'));
+                var rFIlevel = getRFIlevel.level;
                 var approvalCreatedOn = gr.getValue('sys_updated_on');
                 var approvalGrp = gr.getValue('assigned_to') == gr.getValue('applicant_name') ? '' : gr.setValue('assignment_group');
                 gr.setValue('state', -5);
@@ -184,7 +193,7 @@ RFIHandler.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
             var grApprovalHistory = new GlideRecord('x_1097202_epos_approval_history');
             grApprovalHistory.initialize();
             grApprovalHistory.setValue('parent', incParent);
-            grApprovalHistory.setValue('level', level);
+            grApprovalHistory.setValue('level', rFIlevel);
             grApprovalHistory.setValue('approval_group', approvalGrp);
             grApprovalHistory.setValue('decision_date_time', new GlideDateTime());
             grApprovalHistory.setValue('decision_taken', 'RFI Response');
@@ -201,7 +210,7 @@ RFIHandler.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
     getLevel: function(parentId, approvalGrp) {
         var grRoutingPreview = new GlideRecord('x_1040502_eso_mo_0_approval_routing_previews');
         grRoutingPreview.addQuery('parent', parentId);
-        grRoutingPreview.addQuery('approval_group', approvalGrp)
+        grRoutingPreview.addQuery('approval_group', approvalGrp);
         grRoutingPreview.setLimit(1);
         grRoutingPreview.query();
         if (!grRoutingPreview.next()) {
@@ -235,14 +244,14 @@ RFIHandler.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-02-10 16:57:23</sys_created_on>
         <sys_id>fd2a3d0bc3e79250945e9e1d0501316b</sys_id>
-        <sys_mod_count>105</sys_mod_count>
+        <sys_mod_count>111</sys_mod_count>
         <sys_name>RFIHandler</sys_name>
         <sys_package display_value="eSO Mockup" source="x_1040502_eso_mo_0">2a930f88c3211210945e9e1d05013139</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="eSO Mockup">2a930f88c3211210945e9e1d05013139</sys_scope>
         <sys_update_name>sys_script_include_fd2a3d0bc3e79250945e9e1d0501316b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-04 06:41:36</sys_updated_on>
+        <sys_updated_on>2025-03-07 10:13:45</sys_updated_on>
     </sys_script_include>
     <sys_es_latest_script action="INSERT_OR_UPDATE">
         <id>fd2a3d0bc3e79250945e9e1d0501316b</id>
